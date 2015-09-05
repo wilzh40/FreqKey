@@ -1,0 +1,185 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InterfaceController"
+provides-nominal:
+- "C26Connect_WatchKit_Extension19InterfaceController"
+provides-member:
+- ["C26Connect_WatchKit_Extension19InterfaceController", ""]
+provides-dynamic-lookup:
+- "willActivate"
+- "player"
+- "awakeWithContext"
+- "didDeactivate"
+- "playButtonTapped"
+- "motionManager"
+depends-top-level:
+- !private "StringLiteralType"
+- "WKInterfaceController"
+- "AnyObject"
+- "CMMotionManager"
+- "InterfaceController"
+- "WKAudioFilePlayer"
+- !private "print"
+depends-member:
+- !private ["PSs9AnyObject", "CMMotionManager"]
+- ["PSs9AnyObject", "awakeWithContext"]
+- ["PSs9AnyObject", "didDeactivate"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "motionManager"]
+- !private ["PSs9AnyObject", "play"]
+- ["PSs9AnyObject", "playButtonTapped"]
+- ["PSs9AnyObject", "player"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "status"]
+- ["PSs9AnyObject", "willActivate"]
+- ["PSs9AnyObject", ""]
+- !private ["CSo15CMMotionManager", "init"]
+- !private ["PSs11CVarArgType", "CMMotionManager"]
+- ["PSs11CVarArgType", "awakeWithContext"]
+- ["PSs11CVarArgType", "didDeactivate"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "motionManager"]
+- !private ["PSs11CVarArgType", "play"]
+- ["PSs11CVarArgType", "playButtonTapped"]
+- ["PSs11CVarArgType", "player"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "status"]
+- ["PSs11CVarArgType", "willActivate"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "CMMotionManager"]
+- ["PSs23CustomStringConvertible", "awakeWithContext"]
+- ["PSs23CustomStringConvertible", "didDeactivate"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "motionManager"]
+- !private ["PSs23CustomStringConvertible", "play"]
+- ["PSs23CustomStringConvertible", "playButtonTapped"]
+- ["PSs23CustomStringConvertible", "player"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "status"]
+- ["PSs23CustomStringConvertible", "willActivate"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CMMotionManager"]
+- ["PSs9Equatable", "Failed"]
+- ["PSs9Equatable", "ReadyToPlay"]
+- ["PSs9Equatable", "Unknown"]
+- ["PSs9Equatable", "awakeWithContext"]
+- ["PSs9Equatable", "didDeactivate"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "motionManager"]
+- !private ["PSs9Equatable", "play"]
+- ["PSs9Equatable", "playButtonTapped"]
+- ["PSs9Equatable", "player"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "status"]
+- ["PSs9Equatable", "willActivate"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CMMotionManager"]
+- ["PSs8Hashable", "Failed"]
+- ["PSs8Hashable", "ReadyToPlay"]
+- ["PSs8Hashable", "Unknown"]
+- ["PSs8Hashable", "awakeWithContext"]
+- ["PSs8Hashable", "didDeactivate"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "motionManager"]
+- !private ["PSs8Hashable", "play"]
+- ["PSs8Hashable", "playButtonTapped"]
+- ["PSs8Hashable", "player"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "status"]
+- ["PSs8Hashable", "willActivate"]
+- ["PSs8Hashable", ""]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "AnyObject"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "CMMotionManager"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "WKAudioFilePlayer"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "awakeWithContext"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "deinit"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "didDeactivate"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "init"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "motionManager"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "playButtonTapped"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "player"]
+- !private ["C26Connect_WatchKit_Extension19InterfaceController", "print"]
+- ["C26Connect_WatchKit_Extension19InterfaceController", "willActivate"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CMMotionManager"]
+- ["CSo8NSObject", "WKAudioFilePlayer"]
+- ["CSo8NSObject", "awakeWithContext"]
+- ["CSo8NSObject", "didDeactivate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "motionManager"]
+- !private ["CSo8NSObject", "play"]
+- ["CSo8NSObject", "playButtonTapped"]
+- ["CSo8NSObject", "player"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "status"]
+- ["CSo8NSObject", "willActivate"]
+- !private ["PSo16NSObjectProtocol", "CMMotionManager"]
+- ["PSo16NSObjectProtocol", "awakeWithContext"]
+- ["PSo16NSObjectProtocol", "didDeactivate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "motionManager"]
+- !private ["PSo16NSObjectProtocol", "play"]
+- ["PSo16NSObjectProtocol", "playButtonTapped"]
+- ["PSo16NSObjectProtocol", "player"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "status"]
+- ["PSo16NSObjectProtocol", "willActivate"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs16RawRepresentable", "Failed"]
+- ["PSs16RawRepresentable", "ReadyToPlay"]
+- ["PSs16RawRepresentable", "Unknown"]
+- !private ["CSo17WKAudioFilePlayer", "play"]
+- !private ["CSo17WKAudioFilePlayer", "status"]
+- ["OSC23WKAudioFilePlayerStatus", "Failed"]
+- ["OSC23WKAudioFilePlayerStatus", "ReadyToPlay"]
+- ["OSC23WKAudioFilePlayerStatus", "Unknown"]
+- ["CSo21WKInterfaceController", "AnyObject"]
+- ["CSo21WKInterfaceController", "CMMotionManager"]
+- ["CSo21WKInterfaceController", "WKAudioFilePlayer"]
+- ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "didDeactivate"]
+- ["CSo21WKInterfaceController", "init"]
+- ["CSo21WKInterfaceController", "motionManager"]
+- ["CSo21WKInterfaceController", "playButtonTapped"]
+- ["CSo21WKInterfaceController", "player"]
+- !private ["CSo21WKInterfaceController", "print"]
+- ["CSo21WKInterfaceController", "willActivate"]
+- ["CSo21WKInterfaceController", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "CSo15CMMotionManager"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C26Connect_WatchKit_Extension19InterfaceController"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs16RawRepresentable"
+- !private "CSo17WKAudioFilePlayer"
+- "OSC23WKAudioFilePlayerStatus"
+- "CSo21WKInterfaceController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/DarwinShims.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+interface-hash: "62ec4a20bbcce9d89f84e260d7e69bd9"

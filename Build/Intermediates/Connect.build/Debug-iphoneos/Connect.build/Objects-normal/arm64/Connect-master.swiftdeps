@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.57.3 clang-700.0.72)"
+options: "ed56922dad2ec3768b20c4d23b745323"
+build_time: [494747153, 808808000]
+inputs: 
+	"/Users/Remz/Documents/Connect/Connect/ViewController.swift": [494732896, 0]
+	"/Users/Remz/Documents/Connect/Connect/AppDelegate.swift": [494735708, 0]

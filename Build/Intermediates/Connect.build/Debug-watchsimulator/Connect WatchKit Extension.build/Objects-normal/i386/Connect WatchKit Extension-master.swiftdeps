@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.52.2 clang-700.0.65)"
+options: "605c3b1dbd5df7c9e2691b2fac603f6d"
+build_time: [494745074, 314853000]
+inputs: 
+	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/ExtensionDelegate.swift": [494732897, 0]
+	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/NotificationController.swift": [494732897, 0]
+	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/InterfaceController.swift": [494745073, 0]
