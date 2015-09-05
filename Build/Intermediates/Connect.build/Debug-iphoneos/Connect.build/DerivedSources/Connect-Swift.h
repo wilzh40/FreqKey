@@ -90,6 +90,8 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @import WatchConnectivity;
 #endif
 
+#import "/Users/Remz/Documents/Connect/Connect/Connect-Bridging-Header.h"
+
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class UIWindow;
@@ -117,12 +119,15 @@ SWIFT_CLASS("_TtC7Connect11AppDelegate")
 - (void)session:(WCSession * __nonnull)session didFinishFileTransfer:(WCSessionFileTransfer * __nonnull)fileTransfer error:(NSError * __nullable)error;
 @end
 
+@class UITextView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7Connect14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CharReceiver>
+@property (nonatomic) UITextView * __null_unspecified text;
 - (void)viewDidLoad;
+- (void)receivedChar:(int8_t)input;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

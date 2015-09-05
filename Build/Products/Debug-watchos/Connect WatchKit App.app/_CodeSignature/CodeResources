@@ -24,43 +24,43 @@
 		</dict>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
-		1FV7l8YxpmnAm4/at7ZnguEy0FY=
+		IK/15StqtuhQBgOYfLxOAZQLZKw=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		fqA1l0PPfN+jo0viGdmj7vEELDo=
+		IeeuqtZqpA7lSB2K3L93BFwVcgQ=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		IvXCm4N/yvoFmZX7pWD19TPrbeY=
+		uAq0q/XtIxcw3hX5l0Ecv5y9dDs=
 		</data>
 		<key>Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		Qa0fqZJTR8/dF3EozlzRbdEpTdg=
+		SouU7TXfrtT0fRkB4oc2hFCCIuw=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		C/4KUlr3B8S4LrqByqhUbuG0AEA=
+		NtTNXPbnjfRxvYy6DsjKBtwE9rw=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		y1sWydTSsxAtOM0HzQE7kD/uAi0=
+		eTJQkj2HjFlaoRJhEEY2TlZ8ddw=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		fzaMkxvEXRd43hWK2JKivKrU7Qw=
+		6gp2lVQukVbjYZteI+teCI1oVsA=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		Wo6m+nZ4PI46YvI5Lh58eSZ+xzc=
+		UeCxetMdimlsAuzVrKZxhqqjXlw=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		zt8opLXtOgWQPsDHTkyh5++rwIU=
+		dQ88azpzErYN+JVr53n66+v4rqo=
 		</data>
 		<key>Frameworks/libswiftWatchKit.dylib</key>
 		<data>
-		S+Jxko0SqO6i90ZA3TvuKqB34Ww=
+		FKciSquSaHwHTnffoaS83nzV9Tc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -72,7 +72,7 @@
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/Connect WatchKit Extension</key>
 		<data>
-		qioJWrsyz7VAie2oAuszYJy8l0s=
+		Msyx80739HRum/goKxAkDTykPrY=
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/Info.plist</key>
 		<data>
@@ -80,11 +80,11 @@
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		tIblpzwEObvMx2+uYF96uF/tSfo=
+		SqzFnNm5dgts8c52IyeX3jNTHUE=
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/embedded.mobileprovision</key>
 		<data>
-		LKPI7EBAs+baWcvd7uqnI+NANKg=
+		lk05+7GWcbw0PgXwCmYV4QUSRKQ=
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/tapNoise.m4a</key>
 		<data>
@@ -96,7 +96,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		DVqOX3sJWL7g27aX+mC1uT62+Rs=
+		ce/qywbLHTO1eQ3LQRJ4WaQOWMI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -121,47 +121,47 @@
 		</dict>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
-		1FV7l8YxpmnAm4/at7ZnguEy0FY=
+		IK/15StqtuhQBgOYfLxOAZQLZKw=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		fqA1l0PPfN+jo0viGdmj7vEELDo=
+		IeeuqtZqpA7lSB2K3L93BFwVcgQ=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		IvXCm4N/yvoFmZX7pWD19TPrbeY=
+		uAq0q/XtIxcw3hX5l0Ecv5y9dDs=
 		</data>
 		<key>Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		Qa0fqZJTR8/dF3EozlzRbdEpTdg=
+		SouU7TXfrtT0fRkB4oc2hFCCIuw=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		C/4KUlr3B8S4LrqByqhUbuG0AEA=
+		NtTNXPbnjfRxvYy6DsjKBtwE9rw=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		y1sWydTSsxAtOM0HzQE7kD/uAi0=
+		eTJQkj2HjFlaoRJhEEY2TlZ8ddw=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		fzaMkxvEXRd43hWK2JKivKrU7Qw=
+		6gp2lVQukVbjYZteI+teCI1oVsA=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		Wo6m+nZ4PI46YvI5Lh58eSZ+xzc=
+		UeCxetMdimlsAuzVrKZxhqqjXlw=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		zt8opLXtOgWQPsDHTkyh5++rwIU=
+		dQ88azpzErYN+JVr53n66+v4rqo=
 		</data>
 		<key>Frameworks/libswiftWatchKit.dylib</key>
 		<data>
-		S+Jxko0SqO6i90ZA3TvuKqB34Ww=
+		FKciSquSaHwHTnffoaS83nzV9Tc=
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/Connect WatchKit Extension</key>
 		<data>
-		qioJWrsyz7VAie2oAuszYJy8l0s=
+		Msyx80739HRum/goKxAkDTykPrY=
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/Info.plist</key>
 		<data>
@@ -169,11 +169,11 @@
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		tIblpzwEObvMx2+uYF96uF/tSfo=
+		SqzFnNm5dgts8c52IyeX3jNTHUE=
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/embedded.mobileprovision</key>
 		<data>
-		LKPI7EBAs+baWcvd7uqnI+NANKg=
+		lk05+7GWcbw0PgXwCmYV4QUSRKQ=
 		</data>
 		<key>PlugIns/Connect WatchKit Extension.appex/tapNoise.m4a</key>
 		<data>
@@ -185,7 +185,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		DVqOX3sJWL7g27aX+mC1uT62+Rs=
+		ce/qywbLHTO1eQ3LQRJ4WaQOWMI=
 		</data>
 	</dict>
 	<key>rules</key>

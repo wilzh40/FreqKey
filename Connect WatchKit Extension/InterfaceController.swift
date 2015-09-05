@@ -18,8 +18,6 @@ class InterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         // Configure interface objects here.
-
-        
         motionManager.accelerometerUpdateInterval = 0.1
     }
 
@@ -31,7 +29,6 @@ class InterfaceController: WKInterfaceController {
         let fileUrl = NSURL.fileURLWithPath(filePath!)
         let asset = WKAudioFileAsset(URL: fileUrl)
         let playerItem = WKAudioFilePlayerItem(asset: asset)
-//        WKAudioFilePlayerItem(asset: asset)
 
         if motionManager.accelerometerAvailable {
             motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue()!, withHandler: { (data, err) -> Void in
@@ -54,27 +51,31 @@ class InterfaceController: WKInterfaceController {
         let fileManager = NSFileManager.defaultManager()
         
         
-        let container = fileManager.containerURLForSecurityApplicationGroupIdentifier("group.connect.recordings")
-        let fileUrl = container!.URLByAppendingPathComponent("rec.m4a")
+        let container = fileManager.containerURLForSecurityApplicationGroupIdentifier("group.PennApps.Connect.recordings")
+        let fileUrl = container!.URLByAppendingPathComponent("rec.mp4")
         
         return fileUrl
     }
 
     @IBAction func playButtonTapped() {
-//        let filePath = NSBundle.mainBundle().pathForResource("tapNoise", ofType: "m4a")
-//        let fileUrl = NSURL.fileURLWithPath(filePath!)
-//        let sc = SessionController().beginTransferOfFile(fileUrl) { () -> () in
+        SessionController.initiateConnection()
+    }
+    
+    func listenToAudio () {
         
-        presentAudioRecorderControllerWithOutputURL(recordFileURL(), preset: WKAudioRecorderPreset.HighQualityAudio, options: nil) { (completion, errn) -> Void in
+        let audioOptions = [WKAudioRecorderControllerOptionsAutorecordKey:true, WKAudioRecorderControllerOptionsMaximumDurationKey:60*1]
+        presentAudioRecorderControllerWithOutputURL(recordFileURL(), preset:.HighQualityAudio, options: audioOptions as [NSObject : AnyObject]) { (completion, errn) -> Void in
             
+            if (errn != nil) {
+                print(errn)
+            }
             if completion {
                 SessionController().beginTransferOfFile(self.recordFileURL(), completion: { () -> () in
                     
                 })
             }
         }
-        
-        }
 
+    }
 }
 

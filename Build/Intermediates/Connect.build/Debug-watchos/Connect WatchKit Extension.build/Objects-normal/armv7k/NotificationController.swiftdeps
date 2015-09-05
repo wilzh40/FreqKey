@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["C26Connect_WatchKit_Extension22NotificationController", ""]
 provides-dynamic-lookup:
-- "didDeactivate"
 - "willActivate"
+- "didDeactivate"
 depends-top-level:
 - "WKUserNotificationInterfaceController"
 - "NotificationController"

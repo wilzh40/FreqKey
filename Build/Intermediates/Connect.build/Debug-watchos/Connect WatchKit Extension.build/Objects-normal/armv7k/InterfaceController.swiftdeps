@@ -6,41 +6,50 @@ provides-nominal:
 provides-member:
 - ["C26Connect_WatchKit_Extension19InterfaceController", ""]
 provides-dynamic-lookup:
-- "awakeWithContext"
-- "didDeactivate"
-- "recordFileURL"
 - "willActivate"
-- "motionManager"
-- "playButtonTapped"
+- "awakeWithContext"
 - "player"
+- "motionManager"
+- "recordFileURL"
+- "didDeactivate"
+- "playButtonTapped"
 depends-top-level:
-- !private "SessionController"
-- "AnyObject"
-- "WKAudioFilePlayer"
-- !private "Void"
-- !private "NSOperationQueue"
-- "InterfaceController"
-- "CMMotionManager"
-- !private "WKAudioFilePlayerItem"
-- "WKInterfaceController"
-- !private "NSBundle"
-- !private "NSFileManager"
-- !private "StringLiteralType"
-- !private "WKAudioFileAsset"
-- !private "print"
-- !private "WKAudioRecorderPreset"
 - "NSURL"
+- !private "print"
+- !private "NSObject"
+- !private "NSBundle"
+- !private "StringLiteralType"
+- "InterfaceController"
+- !private "NSOperationQueue"
+- !private "WKAudioFileAsset"
+- !private "Dictionary"
+- "AnyObject"
+- !private "Void"
+- !private "BooleanLiteralType"
+- !private "WKAudioFilePlayerItem"
+- !private "!="
+- "WKInterfaceController"
+- !private "NSFileManager"
+- !private "*"
+- !private "WKAudioRecorderControllerOptionsAutorecordKey"
+- "CMMotionManager"
+- !private "SessionController"
+- !private "WKAudioRecorderControllerOptionsMaximumDurationKey"
+- "WKAudioFilePlayer"
 depends-member:
 - ["PSs9AnyObject", "CMMotionManager"]
+- !private ["PSs9AnyObject", "Key"]
 - !private ["PSs9AnyObject", "NSBundle"]
 - !private ["PSs9AnyObject", "NSFileManager"]
 - !private ["PSs9AnyObject", "NSOperationQueue"]
 - !private ["PSs9AnyObject", "NSURL"]
 - !private ["PSs9AnyObject", "SessionController"]
 - !private ["PSs9AnyObject", "URLByAppendingPathComponent"]
+- !private ["PSs9AnyObject", "Value"]
 - !private ["PSs9AnyObject", "WKAudioFileAsset"]
 - !private ["PSs9AnyObject", "WKAudioFilePlayerItem"]
-- !private ["PSs9AnyObject", "WKAudioRecorderPreset"]
+- !private ["PSs9AnyObject", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["PSs9AnyObject", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - !private ["PSs9AnyObject", "acceleration"]
 - !private ["PSs9AnyObject", "accelerometerAvailable"]
 - !private ["PSs9AnyObject", "accelerometerUpdateInterval"]
@@ -49,6 +58,7 @@ depends-member:
 - !private ["PSs9AnyObject", "containerURLForSecurityApplicationGroupIdentifier"]
 - !private ["PSs9AnyObject", "currentQueue"]
 - !private ["PSs9AnyObject", "defaultManager"]
+- !private ["PSs9AnyObject", "deinit"]
 - ["PSs9AnyObject", "didDeactivate"]
 - !private ["PSs9AnyObject", "fileURLWithPath"]
 - ["PSs9AnyObject", "init"]
@@ -78,15 +88,18 @@ depends-member:
 - !private ["CSo15CMMotionManager", "stopAccelerometerUpdates"]
 - !private ["PSo15CNKeyDescriptor", "init"]
 - ["PSs11CVarArgType", "CMMotionManager"]
+- !private ["PSs11CVarArgType", "Key"]
 - !private ["PSs11CVarArgType", "NSBundle"]
 - !private ["PSs11CVarArgType", "NSFileManager"]
 - !private ["PSs11CVarArgType", "NSOperationQueue"]
 - !private ["PSs11CVarArgType", "NSURL"]
 - !private ["PSs11CVarArgType", "SessionController"]
 - !private ["PSs11CVarArgType", "URLByAppendingPathComponent"]
+- !private ["PSs11CVarArgType", "Value"]
 - !private ["PSs11CVarArgType", "WKAudioFileAsset"]
 - !private ["PSs11CVarArgType", "WKAudioFilePlayerItem"]
-- !private ["PSs11CVarArgType", "WKAudioRecorderPreset"]
+- !private ["PSs11CVarArgType", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["PSs11CVarArgType", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - !private ["PSs11CVarArgType", "acceleration"]
 - !private ["PSs11CVarArgType", "accelerometerAvailable"]
 - !private ["PSs11CVarArgType", "accelerometerUpdateInterval"]
@@ -110,18 +123,25 @@ depends-member:
 - ["PSs11CVarArgType", "willActivate"]
 - ["PSs11CVarArgType", ""]
 - !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
 - !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
 - ["PSs23CustomStringConvertible", "CMMotionManager"]
+- !private ["PSs23CustomStringConvertible", "Key"]
 - !private ["PSs23CustomStringConvertible", "NSBundle"]
 - !private ["PSs23CustomStringConvertible", "NSFileManager"]
 - !private ["PSs23CustomStringConvertible", "NSOperationQueue"]
 - !private ["PSs23CustomStringConvertible", "NSURL"]
 - !private ["PSs23CustomStringConvertible", "SessionController"]
 - !private ["PSs23CustomStringConvertible", "URLByAppendingPathComponent"]
+- !private ["PSs23CustomStringConvertible", "Value"]
 - !private ["PSs23CustomStringConvertible", "WKAudioFileAsset"]
 - !private ["PSs23CustomStringConvertible", "WKAudioFilePlayerItem"]
-- !private ["PSs23CustomStringConvertible", "WKAudioRecorderPreset"]
+- !private ["PSs23CustomStringConvertible", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["PSs23CustomStringConvertible", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "acceleration"]
 - !private ["PSs23CustomStringConvertible", "accelerometerAvailable"]
@@ -145,18 +165,25 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "stopAccelerometerUpdates"]
 - ["PSs23CustomStringConvertible", "willActivate"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
 - !private ["Sd", "deinit"]
 - ["PSs9Equatable", "CMMotionManager"]
 - !private ["PSs9Equatable", "HighQualityAudio"]
+- !private ["PSs9Equatable", "Key"]
 - !private ["PSs9Equatable", "NSBundle"]
 - !private ["PSs9Equatable", "NSFileManager"]
 - !private ["PSs9Equatable", "NSOperationQueue"]
 - !private ["PSs9Equatable", "NSURL"]
 - !private ["PSs9Equatable", "SessionController"]
 - !private ["PSs9Equatable", "URLByAppendingPathComponent"]
+- !private ["PSs9Equatable", "Value"]
 - !private ["PSs9Equatable", "WKAudioFileAsset"]
 - !private ["PSs9Equatable", "WKAudioFilePlayerItem"]
-- !private ["PSs9Equatable", "WKAudioRecorderPreset"]
+- !private ["PSs9Equatable", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["PSs9Equatable", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - !private ["PSs9Equatable", "acceleration"]
 - !private ["PSs9Equatable", "accelerometerAvailable"]
@@ -184,15 +211,18 @@ depends-member:
 - !private ["Sf", "deinit"]
 - ["PSs8Hashable", "CMMotionManager"]
 - !private ["PSs8Hashable", "HighQualityAudio"]
+- !private ["PSs8Hashable", "Key"]
 - !private ["PSs8Hashable", "NSBundle"]
 - !private ["PSs8Hashable", "NSFileManager"]
 - !private ["PSs8Hashable", "NSOperationQueue"]
 - !private ["PSs8Hashable", "NSURL"]
 - !private ["PSs8Hashable", "SessionController"]
 - !private ["PSs8Hashable", "URLByAppendingPathComponent"]
+- !private ["PSs8Hashable", "Value"]
 - !private ["PSs8Hashable", "WKAudioFileAsset"]
 - !private ["PSs8Hashable", "WKAudioFilePlayerItem"]
-- !private ["PSs8Hashable", "WKAudioRecorderPreset"]
+- !private ["PSs8Hashable", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["PSs8Hashable", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - !private ["PSs8Hashable", "acceleration"]
 - !private ["PSs8Hashable", "accelerometerAvailable"]
@@ -216,6 +246,8 @@ depends-member:
 - !private ["PSs8Hashable", "stopAccelerometerUpdates"]
 - ["PSs8Hashable", "willActivate"]
 - ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
 - !private ["Si", "deinit"]
 - !private ["VSs5Int16", "deinit"]
 - !private ["VSs5Int32", "deinit"]
@@ -225,6 +257,7 @@ depends-member:
 - ["C26Connect_WatchKit_Extension19InterfaceController", "CMMotionManager"]
 - !private ["C26Connect_WatchKit_Extension19InterfaceController", "NSBundle"]
 - !private ["C26Connect_WatchKit_Extension19InterfaceController", "NSFileManager"]
+- !private ["C26Connect_WatchKit_Extension19InterfaceController", "NSObject"]
 - !private ["C26Connect_WatchKit_Extension19InterfaceController", "NSOperationQueue"]
 - ["C26Connect_WatchKit_Extension19InterfaceController", "NSURL"]
 - !private ["C26Connect_WatchKit_Extension19InterfaceController", "SessionController"]
@@ -232,7 +265,8 @@ depends-member:
 - !private ["C26Connect_WatchKit_Extension19InterfaceController", "WKAudioFileAsset"]
 - ["C26Connect_WatchKit_Extension19InterfaceController", "WKAudioFilePlayer"]
 - !private ["C26Connect_WatchKit_Extension19InterfaceController", "WKAudioFilePlayerItem"]
-- !private ["C26Connect_WatchKit_Extension19InterfaceController", "WKAudioRecorderPreset"]
+- !private ["C26Connect_WatchKit_Extension19InterfaceController", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["C26Connect_WatchKit_Extension19InterfaceController", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - ["C26Connect_WatchKit_Extension19InterfaceController", "awakeWithContext"]
 - ["C26Connect_WatchKit_Extension19InterfaceController", "deinit"]
 - ["C26Connect_WatchKit_Extension19InterfaceController", "didDeactivate"]
@@ -247,30 +281,45 @@ depends-member:
 - !private ["PSs14MirrorPathType", "init"]
 - !private ["CSo8NSBundle", "mainBundle"]
 - !private ["CSo8NSBundle", "pathForResource"]
+- !private ["PSo8NSCoding", "Key"]
 - !private ["PSo8NSCoding", "URLByAppendingPathComponent"]
+- !private ["PSo8NSCoding", "Value"]
 - !private ["PSo8NSCoding", "acceleration"]
 - !private ["PSo8NSCoding", "fileURLWithPath"]
 - !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "Key"]
 - !private ["PSo9NSCopying", "URLByAppendingPathComponent"]
+- !private ["PSo9NSCopying", "Value"]
 - !private ["PSo9NSCopying", "acceleration"]
 - !private ["PSo9NSCopying", "fileURLWithPath"]
 - !private ["PSo9NSCopying", "init"]
+- !private ["CSo12NSDictionary", "Key"]
+- !private ["CSo12NSDictionary", "Value"]
+- !private ["CSo12NSDictionary", "deinit"]
+- !private ["PSo17NSFastEnumeration", "Key"]
+- !private ["PSo17NSFastEnumeration", "Value"]
 - !private ["CSo13NSFileManager", "containerURLForSecurityApplicationGroupIdentifier"]
 - !private ["CSo13NSFileManager", "defaultManager"]
+- !private ["PSo16NSMutableCopying", "Key"]
+- !private ["PSo16NSMutableCopying", "Value"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "CMMotionManager"]
+- !private ["CSo8NSObject", "Key"]
 - !private ["CSo8NSObject", "NSBundle"]
 - !private ["CSo8NSObject", "NSFileManager"]
+- !private ["CSo8NSObject", "NSObject"]
 - !private ["CSo8NSObject", "NSOperationQueue"]
 - ["CSo8NSObject", "NSURL"]
 - !private ["CSo8NSObject", "SessionController"]
 - !private ["CSo8NSObject", "URLByAppendingPathComponent"]
+- !private ["CSo8NSObject", "Value"]
 - !private ["CSo8NSObject", "Void"]
 - !private ["CSo8NSObject", "WKAudioFileAsset"]
 - ["CSo8NSObject", "WKAudioFilePlayer"]
 - !private ["CSo8NSObject", "WKAudioFilePlayerItem"]
-- !private ["CSo8NSObject", "WKAudioRecorderPreset"]
+- !private ["CSo8NSObject", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["CSo8NSObject", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - !private ["CSo8NSObject", "acceleration"]
 - !private ["CSo8NSObject", "accelerometerAvailable"]
 - !private ["CSo8NSObject", "accelerometerUpdateInterval"]
@@ -293,15 +342,18 @@ depends-member:
 - !private ["CSo8NSObject", "stopAccelerometerUpdates"]
 - ["CSo8NSObject", "willActivate"]
 - ["PSo16NSObjectProtocol", "CMMotionManager"]
+- !private ["PSo16NSObjectProtocol", "Key"]
 - !private ["PSo16NSObjectProtocol", "NSBundle"]
 - !private ["PSo16NSObjectProtocol", "NSFileManager"]
 - !private ["PSo16NSObjectProtocol", "NSOperationQueue"]
 - !private ["PSo16NSObjectProtocol", "NSURL"]
 - !private ["PSo16NSObjectProtocol", "SessionController"]
 - !private ["PSo16NSObjectProtocol", "URLByAppendingPathComponent"]
+- !private ["PSo16NSObjectProtocol", "Value"]
 - !private ["PSo16NSObjectProtocol", "WKAudioFileAsset"]
 - !private ["PSo16NSObjectProtocol", "WKAudioFilePlayerItem"]
-- !private ["PSo16NSObjectProtocol", "WKAudioRecorderPreset"]
+- !private ["PSo16NSObjectProtocol", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["PSo16NSObjectProtocol", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - !private ["PSo16NSObjectProtocol", "acceleration"]
 - !private ["PSo16NSObjectProtocol", "accelerometerAvailable"]
 - !private ["PSo16NSObjectProtocol", "accelerometerUpdateInterval"]
@@ -325,7 +377,9 @@ depends-member:
 - ["PSo16NSObjectProtocol", "willActivate"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["CSo16NSOperationQueue", "currentQueue"]
+- !private ["PSo14NSSecureCoding", "Key"]
 - !private ["PSo14NSSecureCoding", "URLByAppendingPathComponent"]
+- !private ["PSo14NSSecureCoding", "Value"]
 - !private ["PSo14NSSecureCoding", "acceleration"]
 - !private ["PSo14NSSecureCoding", "fileURLWithPath"]
 - !private ["PSo14NSSecureCoding", "init"]
@@ -336,9 +390,12 @@ depends-member:
 - !private ["Sq", "deinit"]
 - !private ["PSs16OutputStreamType", "init"]
 - !private ["PSs16RawRepresentable", "HighQualityAudio"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
 - !private ["C26Connect_WatchKit_Extension17SessionController", "beginTransferOfFile"]
 - !private ["C26Connect_WatchKit_Extension17SessionController", "init"]
 - !private ["PSs10Streamable", "init"]
+- !private ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["PSs30StringInterpolationConvertible", "init"]
 - !private ["PSs24StringLiteralConvertible", "init"]
@@ -356,6 +413,7 @@ depends-member:
 - ["CSo21WKInterfaceController", "CMMotionManager"]
 - !private ["CSo21WKInterfaceController", "NSBundle"]
 - !private ["CSo21WKInterfaceController", "NSFileManager"]
+- !private ["CSo21WKInterfaceController", "NSObject"]
 - !private ["CSo21WKInterfaceController", "NSOperationQueue"]
 - ["CSo21WKInterfaceController", "NSURL"]
 - !private ["CSo21WKInterfaceController", "SessionController"]
@@ -363,7 +421,8 @@ depends-member:
 - !private ["CSo21WKInterfaceController", "WKAudioFileAsset"]
 - ["CSo21WKInterfaceController", "WKAudioFilePlayer"]
 - !private ["CSo21WKInterfaceController", "WKAudioFilePlayerItem"]
-- !private ["CSo21WKInterfaceController", "WKAudioRecorderPreset"]
+- !private ["CSo21WKInterfaceController", "WKAudioRecorderControllerOptionsAutorecordKey"]
+- !private ["CSo21WKInterfaceController", "WKAudioRecorderControllerOptionsMaximumDurationKey"]
 - ["CSo21WKInterfaceController", "awakeWithContext"]
 - ["CSo21WKInterfaceController", "didDeactivate"]
 - ["CSo21WKInterfaceController", "init"]
@@ -381,9 +440,14 @@ depends-member:
 - !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
 - !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Key"]
 - !private ["PSs12_Reflectable", "URLByAppendingPathComponent"]
+- !private ["PSs12_Reflectable", "Value"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "fileURLWithPath"]
 - !private ["PSs12_Reflectable", "init"]
@@ -399,14 +463,18 @@ depends-nominal:
 - !private "PSo15CNKeyDescriptor"
 - "PSs11CVarArgType"
 - !private "VSs9Character"
+- !private "PSs14CollectionType"
 - !private "PSs10Comparable"
 - !private "PSs28CustomDebugStringConvertible"
 - "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
 - !private "Sd"
 - "PSs9Equatable"
 - !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Sf"
 - "PSs8Hashable"
+- !private "PSs9Indexable"
 - !private "Si"
 - !private "VSs5Int16"
 - !private "VSs5Int32"
@@ -417,6 +485,8 @@ depends-nominal:
 - !private "CSo8NSBundle"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
 - !private "CSo13NSFileManager"
 - !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
@@ -428,6 +498,7 @@ depends-nominal:
 - !private "Sq"
 - !private "PSs16OutputStreamType"
 - !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
 - !private "C26Connect_WatchKit_Extension17SessionController"
 - !private "PSs10Streamable"
 - !private "SS"
@@ -451,6 +522,7 @@ depends-nominal:
 - !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
 - !private "PSs16_CocoaStringType"
 - !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
 - !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:

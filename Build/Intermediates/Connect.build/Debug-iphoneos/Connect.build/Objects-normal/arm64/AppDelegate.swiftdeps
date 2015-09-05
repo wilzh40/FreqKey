@@ -7,28 +7,30 @@ provides-member:
 - ["C7Connect11AppDelegate", ""]
 provides-dynamic-lookup:
 - "applicationDidBecomeActive"
-- "application"
-- "session"
-- "applicationWillEnterForeground"
-- "applicationWillTerminate"
 - "sessionWatchStateDidChange"
+- "window"
+- "applicationWillEnterForeground"
+- "session"
 - "applicationDidEnterBackground"
 - "applicationWillResignActive"
-- "window"
+- "applicationWillTerminate"
+- "application"
 depends-top-level:
-- "UIResponder"
+- !private "print"
 - "Bool"
-- "AnyObject"
-- "NSObject"
 - "WCSessionFileTransfer"
-- "UIWindow"
-- "AppDelegate"
-- "UIApplication"
-- "WCSessionDelegate"
-- "WCSession"
 - "NSError"
+- "AnyObject"
+- "WCSession"
 - "UIApplicationDelegate"
 - !private "BooleanLiteralType"
+- "UIResponder"
+- "UIApplication"
+- "AppDelegate"
+- !private "StringLiteralType"
+- "NSObject"
+- "UIWindow"
+- "WCSessionDelegate"
 depends-member:
 - !private ["PSs9AnyObject", "WCSession"]
 - !private ["PSs9AnyObject", "activateSession"]
@@ -48,6 +50,7 @@ depends-member:
 - !private ["PSs9AnyObject", "delegate"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "isSupported"]
+- !private ["PSs9AnyObject", "print"]
 - ["PSs9AnyObject", "session"]
 - ["PSs9AnyObject", "sessionReachabilityDidChange"]
 - ["PSs9AnyObject", "sessionWatchStateDidChange"]
@@ -75,6 +78,7 @@ depends-member:
 - ["C7Connect11AppDelegate", "applicationWillTerminate"]
 - ["C7Connect11AppDelegate", "deinit"]
 - ["C7Connect11AppDelegate", "init"]
+- !private ["C7Connect11AppDelegate", "print"]
 - ["C7Connect11AppDelegate", "session"]
 - ["C7Connect11AppDelegate", "sessionReachabilityDidChange"]
 - ["C7Connect11AppDelegate", "sessionWatchStateDidChange"]
@@ -100,6 +104,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "delegate"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "isSupported"]
+- !private ["PSs11CVarArgType", "print"]
 - ["PSs11CVarArgType", "session"]
 - ["PSs11CVarArgType", "sessionReachabilityDidChange"]
 - ["PSs11CVarArgType", "sessionWatchStateDidChange"]
@@ -124,6 +129,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "delegate"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "isSupported"]
+- !private ["PSs23CustomStringConvertible", "print"]
 - ["PSs23CustomStringConvertible", "session"]
 - ["PSs23CustomStringConvertible", "sessionReachabilityDidChange"]
 - ["PSs23CustomStringConvertible", "sessionWatchStateDidChange"]
@@ -148,6 +154,7 @@ depends-member:
 - !private ["PSs9Equatable", "delegate"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "isSupported"]
+- !private ["PSs9Equatable", "print"]
 - ["PSs9Equatable", "session"]
 - ["PSs9Equatable", "sessionReachabilityDidChange"]
 - ["PSs9Equatable", "sessionWatchStateDidChange"]
@@ -172,6 +179,7 @@ depends-member:
 - !private ["PSs8Hashable", "delegate"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "isSupported"]
+- !private ["PSs8Hashable", "print"]
 - ["PSs8Hashable", "session"]
 - ["PSs8Hashable", "sessionReachabilityDidChange"]
 - ["PSs8Hashable", "sessionWatchStateDidChange"]
@@ -202,6 +210,7 @@ depends-member:
 - !private ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "isSupported"]
+- !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "session"]
 - ["CSo8NSObject", "sessionReachabilityDidChange"]
 - ["CSo8NSObject", "sessionWatchStateDidChange"]
@@ -224,6 +233,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isSupported"]
+- !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "session"]
 - ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
 - ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
@@ -242,6 +252,7 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
 - ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "print"]
 - ["PSo21UIApplicationDelegate", "session"]
 - ["PSo21UIApplicationDelegate", "sessionReachabilityDidChange"]
 - ["PSo21UIApplicationDelegate", "sessionWatchStateDidChange"]
@@ -268,6 +279,7 @@ depends-member:
 - ["CSo11UIResponder", "applicationWillResignActive"]
 - ["CSo11UIResponder", "applicationWillTerminate"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "session"]
 - ["CSo11UIResponder", "sessionReachabilityDidChange"]
 - ["CSo11UIResponder", "sessionWatchStateDidChange"]
@@ -290,6 +302,7 @@ depends-member:
 - ["PSo17WCSessionDelegate", "applicationWillEnterForeground"]
 - ["PSo17WCSessionDelegate", "applicationWillResignActive"]
 - ["PSo17WCSessionDelegate", "applicationWillTerminate"]
+- !private ["PSo17WCSessionDelegate", "print"]
 - ["PSo17WCSessionDelegate", "session"]
 - ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
 - ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
@@ -320,13 +333,44 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/Connect-Bridging-Header.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudio.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioDevice.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFile.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFloatData.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZMicrophone.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZOutput.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZRecorder.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioPlayer.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZPlot.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioUtilities.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/TPCircularBuffer.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/usr/include/assert.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioDisplayLink.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioPlot.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioPlotGL.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFFT.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFloatConverter.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/CharReceiver.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/AudioSignalAnalyzer.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/AudioQueueObject.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/PatternRecognizer.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/FSKRecognizer.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/FSKSerialGenerator.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/AudioSignalGenerator.h"
+- "/Users/Remz/Documents/Connect/Connect/AudioDemo.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchConnectivity.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
 interface-hash: "7f81af32714082b940fda2718770cc75"

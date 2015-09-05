@@ -28,4 +28,17 @@ class SessionController {
     static func requestContactInfo() {
         
     }
+    
+    static func completeExchange() {
+        
+    }
+    
+    static func initiateConnection() {
+        WCSession.defaultSession().sendMessage(["action":"transfer"], replyHandler: { (reply) -> Void in
+            
+            
+            }) { (err) -> Void in
+                
+        }
+    }
 }

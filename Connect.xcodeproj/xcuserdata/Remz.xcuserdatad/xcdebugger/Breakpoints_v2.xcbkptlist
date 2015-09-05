@@ -96,22 +96,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Connect WatchKit Extension/InterfaceController.swift"
-            timestampString = "463166560.946317"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "playButtonTapped()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -148,45 +132,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Connect WatchKit Extension/InterfaceController.swift"
-            timestampString = "463166853.514715"
+            timestampString = "463177675.287818"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "playButtonTapped()"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "recordFileURL()"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Connect_WatchKit_Extension.InterfaceController.(playButtonTapped (Connect_WatchKit_Extension.InterfaceController) -&gt; () -&gt; ()).(closure #1)"
-                  moduleName = "Connect WatchKit Extension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Remz/Documents/Connect/Connect%20WatchKit%20Extension/InterfaceController.swift"
-                  timestampString = "463168041.223815"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Connect_WatchKit_Extension.InterfaceController.(playButtonTapped (Connect_WatchKit_Extension.InterfaceController) -&gt; () -&gt; ()).(closure #1).(closure #1)"
-                  moduleName = "Connect WatchKit Extension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Remz/Documents/Connect/Connect%20WatchKit%20Extension/InterfaceController.swift"
-                  timestampString = "463168041.225215"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "0">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SessionController.swift"
+            timestampString = "463183227.367799"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "initiateConnection()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Connect/AppDelegate.swift"
+            timestampString = "463183343.957455"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "session(_:didReceiveMessage:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

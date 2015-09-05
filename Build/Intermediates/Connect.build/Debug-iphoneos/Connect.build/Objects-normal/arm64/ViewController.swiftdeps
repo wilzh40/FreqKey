@@ -4,103 +4,638 @@ provides-top-level:
 provides-nominal:
 - "C7Connect14ViewController"
 provides-member:
+- ["SS", ""]
 - ["C7Connect14ViewController", ""]
+- ["SS", "ascii2uint"]
 provides-dynamic-lookup:
 - "viewDidLoad"
+- "receivedChar"
+- "text"
 - "didReceiveMemoryWarning"
 depends-top-level:
-- "UIViewController"
 - "ViewController"
+- "UIViewController"
+- !private "StringLiteralType"
+- !private "NSUTF8StringEncoding"
+- !private "CGRectMake"
+- "UInt8"
+- !private "withUnsafePointer"
+- !private "BooleanLiteralType"
+- "UITextView"
+- !private "AudioDemo"
+- !private "UnicodeScalarType"
+- !private "/"
+- !private "+"
+- !private "NSString"
+- "CharReceiver"
+- "Int8"
+- "String"
 depends-member:
+- !private ["PSo22AVAudioSessionDelegate", "generator"]
+- !private ["PSo22AVAudioSessionDelegate", "init"]
+- !private ["PSo22AVAudioSessionDelegate", "recognizer"]
+- !private ["PSs9AnyObject", "AudioDemo"]
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "NSString"]
+- !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "UITextView"]
+- !private ["PSs9AnyObject", "addReceiver"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "ascii2uint"]
+- !private ["PSs9AnyObject", "bounds"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "editable"]
+- !private ["PSs9AnyObject", "generator"]
 - ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "receivedChar"]
+- !private ["PSs9AnyObject", "recognizer"]
+- ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "utf8"]
+- !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidLoad"]
+- !private ["PSs9AnyObject", "withUnsafePointer"]
+- !private ["PSs9AnyObject", "writeByte"]
 - ["PSs9AnyObject", ""]
+- !private ["CSo9AudioDemo", "generator"]
+- !private ["CSo9AudioDemo", "init"]
+- !private ["CSo9AudioDemo", "recognizer"]
+- !private ["CSo16AudioQueueObject", "writeByte"]
+- !private ["CSo20AudioSignalGenerator", "writeByte"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["PSo15CNKeyDescriptor", "ascii2uint"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["PSo15CNKeyDescriptor", "utf8"]
+- !private ["PSs11CVarArgType", "AudioDemo"]
+- !private ["PSs11CVarArgType", "CGRectMake"]
+- !private ["PSs11CVarArgType", "NSString"]
+- !private ["PSs11CVarArgType", "NSUTF8StringEncoding"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "UITextView"]
+- !private ["PSs11CVarArgType", "addReceiver"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "ascii2uint"]
+- !private ["PSs11CVarArgType", "bounds"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "editable"]
+- !private ["PSs11CVarArgType", "generator"]
 - ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "receivedChar"]
+- !private ["PSs11CVarArgType", "recognizer"]
+- ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "utf8"]
+- !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidLoad"]
+- !private ["PSs11CVarArgType", "withUnsafePointer"]
+- !private ["PSs11CVarArgType", "writeByte"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSo12CharReceiver", "AudioDemo"]
+- !private ["PSo12CharReceiver", "CGRectMake"]
+- !private ["PSo12CharReceiver", "NSString"]
+- !private ["PSo12CharReceiver", "NSUTF8StringEncoding"]
+- !private ["PSo12CharReceiver", "String"]
+- !private ["PSo12CharReceiver", "UITextView"]
+- !private ["PSo12CharReceiver", "generator"]
+- !private ["PSo12CharReceiver", "init"]
+- ["PSo12CharReceiver", "receivedChar"]
+- !private ["PSo12CharReceiver", "recognizer"]
+- !private ["PSo12CharReceiver", "text"]
+- !private ["PSo12CharReceiver", "view"]
+- !private ["PSo12CharReceiver", "withUnsafePointer"]
+- ["PSo12CharReceiver", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "startIndex"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "ascii2uint"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "utf8"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "ascii2uint"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "startIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "utf8"]
+- !private ["PSs23CustomStringConvertible", "AudioDemo"]
+- !private ["PSs23CustomStringConvertible", "CGRectMake"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "NSString"]
+- !private ["PSs23CustomStringConvertible", "NSUTF8StringEncoding"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UITextView"]
+- !private ["PSs23CustomStringConvertible", "addReceiver"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "ascii2uint"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "editable"]
+- !private ["PSs23CustomStringConvertible", "generator"]
 - ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "receivedChar"]
+- !private ["PSs23CustomStringConvertible", "recognizer"]
+- !private ["PSs23CustomStringConvertible", "startIndex"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "utf8"]
+- !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
+- !private ["PSs23CustomStringConvertible", "withUnsafePointer"]
+- !private ["PSs23CustomStringConvertible", "writeByte"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSo18EZRecorderDelegate", "writeByte"]
+- !private ["PSs9Equatable", "AudioDemo"]
+- !private ["PSs9Equatable", "CGRectMake"]
+- !private ["PSs9Equatable", "NSString"]
+- !private ["PSs9Equatable", "NSUTF8StringEncoding"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "UITextView"]
+- !private ["PSs9Equatable", "addReceiver"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "ascii2uint"]
+- !private ["PSs9Equatable", "bounds"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "editable"]
+- !private ["PSs9Equatable", "generator"]
+- !private ["PSs9Equatable", "height"]
 - ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "receivedChar"]
+- !private ["PSs9Equatable", "recognizer"]
+- ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "utf8"]
+- !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "width"]
+- !private ["PSs9Equatable", "withUnsafePointer"]
+- !private ["PSs9Equatable", "writeByte"]
 - ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "ascii2uint"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "utf8"]
+- !private ["CSo13FSKRecognizer", "addReceiver"]
+- !private ["CSo18FSKSerialGenerator", "writeByte"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "AudioDemo"]
+- !private ["PSs8Hashable", "CGRectMake"]
+- !private ["PSs8Hashable", "NSString"]
+- !private ["PSs8Hashable", "NSUTF8StringEncoding"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "UITextView"]
+- !private ["PSs8Hashable", "addReceiver"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "ascii2uint"]
+- !private ["PSs8Hashable", "bounds"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "editable"]
+- !private ["PSs8Hashable", "generator"]
 - ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "receivedChar"]
+- !private ["PSs8Hashable", "recognizer"]
+- ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "utf8"]
+- !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidLoad"]
+- !private ["PSs8Hashable", "withUnsafePointer"]
+- !private ["PSs8Hashable", "writeByte"]
 - ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "startIndex"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["PSs14MirrorPathType", "ascii2uint"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "utf8"]
+- !private ["PSo8NSCoding", "AudioDemo"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "NSString"]
+- !private ["PSo8NSCoding", "NSUTF8StringEncoding"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UITextView"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "ascii2uint"]
+- !private ["PSo8NSCoding", "bounds"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "editable"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "receivedChar"]
+- ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "utf8"]
+- !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "withUnsafePointer"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "ascii2uint"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "utf8"]
+- !private ["PSo26NSExtensionRequestHandling", "AudioDemo"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
+- !private ["PSo26NSExtensionRequestHandling", "NSString"]
+- !private ["PSo26NSExtensionRequestHandling", "NSUTF8StringEncoding"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UITextView"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "receivedChar"]
+- ["PSo26NSExtensionRequestHandling", "text"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- !private ["PSo26NSExtensionRequestHandling", "withUnsafePointer"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "ascii2uint"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "utf8"]
+- !private ["CSo8NSObject", "AudioDemo"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- ["CSo8NSObject", "Int8"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "NSUTF8StringEncoding"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "addReceiver"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "ascii2uint"]
+- !private ["CSo8NSObject", "bounds"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "editable"]
+- !private ["CSo8NSObject", "generator"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "receivedChar"]
+- !private ["CSo8NSObject", "recognizer"]
+- ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "utf8"]
+- !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "withUnsafePointer"]
+- !private ["CSo8NSObject", "writeByte"]
+- !private ["PSo16NSObjectProtocol", "AudioDemo"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "NSString"]
+- !private ["PSo16NSObjectProtocol", "NSUTF8StringEncoding"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UITextView"]
+- !private ["PSo16NSObjectProtocol", "addReceiver"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "ascii2uint"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "editable"]
+- !private ["PSo16NSObjectProtocol", "generator"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "receivedChar"]
+- !private ["PSo16NSObjectProtocol", "recognizer"]
+- ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "utf8"]
+- !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "withUnsafePointer"]
+- !private ["PSo16NSObjectProtocol", "writeByte"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "ascii2uint"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "utf8"]
+- !private ["CSo8NSString", "ascii2uint"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "utf8"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["PSs16OutputStreamType", "ascii2uint"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "utf8"]
+- !private ["PSo17PatternRecognizer", "addReceiver"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "startIndex"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "ascii2uint"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "utf8"]
+- ["SS", "UInt8"]
+- ["SS", "ascii2uint"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["PSs30StringInterpolationConvertible", "ascii2uint"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "utf8"]
+- !private ["PSs24StringLiteralConvertible", "ascii2uint"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "utf8"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "editable"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "editable"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "AudioDemo"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "NSString"]
+- !private ["PSo21UIAppearanceContainer", "NSUTF8StringEncoding"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UITextView"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "editable"]
 - ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "receivedChar"]
+- ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- !private ["PSo21UIAppearanceContainer", "withUnsafePointer"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AudioDemo"]
+- !private ["PSo18UIContentContainer", "CGRectMake"]
+- !private ["PSo18UIContentContainer", "NSString"]
+- !private ["PSo18UIContentContainer", "NSUTF8StringEncoding"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UITextView"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "receivedChar"]
+- ["PSo18UIContentContainer", "text"]
+- !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
+- !private ["PSo18UIContentContainer", "withUnsafePointer"]
 - ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "editable"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "editable"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo10UIKeyInput", "editable"]
+- !private ["PSo10UIKeyInput", "init"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "AudioDemo"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- ["CSo11UIResponder", "Int8"]
+- !private ["CSo11UIResponder", "NSString"]
+- !private ["CSo11UIResponder", "NSUTF8StringEncoding"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UITextView"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "bounds"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "editable"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "receivedChar"]
+- ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo11UIResponder", "withUnsafePointer"]
+- !private ["CSo12UIScrollView", "editable"]
+- !private ["CSo12UIScrollView", "init"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo16UIStateRestoring", "AudioDemo"]
+- !private ["PSo16UIStateRestoring", "CGRectMake"]
+- !private ["PSo16UIStateRestoring", "NSString"]
+- !private ["PSo16UIStateRestoring", "NSUTF8StringEncoding"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UITextView"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "receivedChar"]
+- ["PSo16UIStateRestoring", "text"]
+- !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "withUnsafePointer"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["PSo11UITextInput", "editable"]
+- !private ["PSo11UITextInput", "init"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "editable"]
+- !private ["PSo17UITextInputTraits", "init"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "editable"]
+- !private ["CSo10UITextView", "init"]
+- !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITraitEnvironment", "AudioDemo"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "NSString"]
+- !private ["PSo18UITraitEnvironment", "NSUTF8StringEncoding"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UITextView"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "editable"]
 - ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "receivedChar"]
+- ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
+- !private ["PSo18UITraitEnvironment", "withUnsafePointer"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "editable"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "AudioDemo"]
+- !private ["CSo16UIViewController", "CGRectMake"]
+- ["CSo16UIViewController", "Int8"]
+- !private ["CSo16UIViewController", "NSString"]
+- !private ["CSo16UIViewController", "NSUTF8StringEncoding"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UITextView"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "receivedChar"]
+- ["CSo16UIViewController", "text"]
+- !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
+- !private ["CSo16UIViewController", "withUnsafePointer"]
 - ["CSo16UIViewController", ""]
+- !private ["VSS8UTF8View", "Index"]
+- !private ["VSS8UTF8View", "SubSequence"]
+- !private ["VSS8UTF8View", "deinit"]
+- !private ["VSS8UTF8View", "startIndex"]
+- !private ["VSS8UTF8View", "subscript"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "ascii2uint"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "utf8"]
+- !private ["C7Connect14ViewController", "AudioDemo"]
+- !private ["C7Connect14ViewController", "CGRectMake"]
+- ["C7Connect14ViewController", "Int8"]
+- !private ["C7Connect14ViewController", "NSString"]
+- !private ["C7Connect14ViewController", "NSUTF8StringEncoding"]
+- !private ["C7Connect14ViewController", "String"]
+- ["C7Connect14ViewController", "UITextView"]
 - ["C7Connect14ViewController", "deinit"]
 - ["C7Connect14ViewController", "didReceiveMemoryWarning"]
 - ["C7Connect14ViewController", "init"]
+- ["C7Connect14ViewController", "receivedChar"]
+- ["C7Connect14ViewController", "text"]
+- !private ["C7Connect14ViewController", "view"]
 - ["C7Connect14ViewController", "viewDidLoad"]
+- !private ["C7Connect14ViewController", "withUnsafePointer"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "ascii2uint"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "utf8"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "ascii2uint"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "utf8"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "ascii2uint"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "utf8"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "ascii2uint"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "utf8"]
+- !private ["PSs16_CocoaStringType", "ascii2uint"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "utf8"]
+- !private ["PSs21_ObjectiveCBridgeable", "ascii2uint"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "utf8"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "ascii2uint"]
+- !private ["PSs12_Reflectable", "bounds"]
+- !private ["PSs12_Reflectable", "editable"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "startIndex"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "utf8"]
+- !private ["PSs12_Reflectable", "width"]
 depends-nominal:
+- !private "PSo22AVAudioSessionDelegate"
 - "PSs9AnyObject"
+- !private "CSo9AudioDemo"
+- !private "CSo16AudioQueueObject"
+- !private "CSo20AudioSignalGenerator"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "PSo15CNKeyDescriptor"
 - "PSs11CVarArgType"
+- "PSo12CharReceiver"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
 - "PSs23CustomStringConvertible"
+- !private "PSo18EZRecorderDelegate"
 - "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo13FSKRecognizer"
+- !private "CSo18FSKSerialGenerator"
+- !private "PSs13GeneratorType"
 - "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "PSs14MirrorPathType"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSo17PatternRecognizer"
+- !private "PSs12SequenceType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo10UIKeyInput"
 - "CSo11UIResponder"
+- !private "CSo12UIScrollView"
 - "PSo16UIStateRestoring"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
 - "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "VSS8UTF8View"
+- !private "PSs31UnicodeScalarLiteralConvertible"
 - "C7Connect14ViewController"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/Connect-Bridging-Header.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudio.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioDevice.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFile.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFloatData.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZMicrophone.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZOutput.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZRecorder.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioPlayer.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZPlot.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioUtilities.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/TPCircularBuffer.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/usr/include/assert.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioDisplayLink.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioPlot.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioPlotGL.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFFT.h"
+- "/Users/Remz/Documents/Connect/Connect/EZAudio/EZAudioFloatConverter.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/CharReceiver.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/AudioSignalAnalyzer.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/AudioQueueObject.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/PatternRecognizer.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/FSKRecognizer.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/FSKSerialGenerator.h"
+- "/Users/Remz/Documents/Connect/Connect/FSK/AudioSignalGenerator.h"
+- "/Users/Remz/Documents/Connect/Connect/AudioDemo.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchConnectivity.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
-interface-hash: "2273e0b6560749631899e82af2412a52"
+interface-hash: "43360f41c4301d49b76a805a895057fb"

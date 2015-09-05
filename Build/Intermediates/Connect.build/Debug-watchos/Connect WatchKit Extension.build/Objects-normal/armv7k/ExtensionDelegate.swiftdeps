@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
-- "session"
 - "applicationDidBecomeActive"
+- "session"
 - "applicationDidFinishLaunching"
+- "applicationWillResignActive"
 depends-top-level:
-- "ExtensionDelegate"
-- "WCSession"
-- "WCSessionFile"
 - !private "StringLiteralType"
 - "NSObject"
-- "WKExtensionDelegate"
-- !private "print"
+- "ExtensionDelegate"
+- "WCSession"
 - "WCSessionDelegate"
+- !private "print"
+- "WKExtensionDelegate"
+- "WCSessionFile"
 depends-member:
 - !private ["PSs9AnyObject", "WCSession"]
 - !private ["PSs9AnyObject", "activateSession"]

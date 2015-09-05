@@ -6,11 +6,11 @@
 	<string>P3KRQEA879.PennApps.Connect</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>P3KRQEA879</string>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.PennApps.Connect.recordings</string>
+	</array>
 	<key>get-task-allow</key>
 	<true/>
-	<key>keychain-access-groups</key>
-	<array>
-		<string>P3KRQEA879.PennApps.Connect</string>
-	</array>
 </dict>
 </plist>
