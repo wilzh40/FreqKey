@@ -26,12 +26,12 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
         
-        let filePath = NSBundle.mainBundle().pathForResource("tapNoise", ofType: "m4a")!
-        let fileUrl = NSURL.fileURLWithPath(filePath)
-        let asset = WKAudioFileAsset(URL: fileUrl)
-        let playerItem = WKAudioFilePlayerItem(asset: asset)
-        player = WKAudioFilePlayer(playerItem: playerItem)
-        
+//        let filePath = NSBundle.mainBundle().pathForResource("tapNoise", ofType: "m4a")!
+//        let fileUrl = NSURL.fileURLWithPath(filePath)
+//        let asset = WKAudioFileAsset(URL: fileUrl)
+//        let playerItem = WKAudioFilePlayerItem(asset: asset)
+//        player = WKAudioFilePlayer(playerItem: playerItem)
+//        
         if motionManager.accelerometerAvailable {
             motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue()!, withHandler: { (data, err) -> Void in
                 
