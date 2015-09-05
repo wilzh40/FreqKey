@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             currentSession.delegate = self
             currentSession.activateSession()
         }
+        
         return true
     }
 
@@ -60,6 +61,8 @@ extension AppDelegate:WCSessionDelegate {
     }
     
     func session(session: WCSession, didFinishFileTransfer fileTransfer: WCSessionFileTransfer, error: NSError?) {
+        
+        print("did recieve file in app del")
         
     }
 }

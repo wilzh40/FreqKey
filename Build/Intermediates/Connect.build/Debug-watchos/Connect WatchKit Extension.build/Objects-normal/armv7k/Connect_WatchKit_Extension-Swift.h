@@ -88,6 +88,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import ObjectiveC;
 @import WatchKit;
+@import WatchConnectivity;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -101,8 +102,16 @@ SWIFT_CLASS("_TtC26Connect_WatchKit_Extension17ExtensionDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class WCSession;
+@class WCSessionFile;
+
+@interface ExtensionDelegate (SWIFT_EXTENSION(Connect_WatchKit_Extension)) <WCSessionDelegate>
+- (void)session:(WCSession * __nonnull)session didReceiveFile:(WCSessionFile * __nonnull)file;
+@end
+
 @class WKAudioFilePlayer;
 @class CMMotionManager;
+@class NSURL;
 
 SWIFT_CLASS("_TtC26Connect_WatchKit_Extension19InterfaceController")
 @interface InterfaceController : WKInterfaceController
@@ -111,6 +120,7 @@ SWIFT_CLASS("_TtC26Connect_WatchKit_Extension19InterfaceController")
 - (void)awakeWithContext:(id __nullable)context;
 - (void)willActivate;
 - (void)didDeactivate;
+- (NSURL * __nonnull)recordFileURL;
 - (IBAction)playButtonTapped;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

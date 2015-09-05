@@ -1,7 +1,8 @@
 version: "Apple Swift version 2.0 (swiftlang-700.0.57.3 clang-700.0.72)"
-options: "f53b9af548eb86b632f7b3a50ff8d6a5"
-build_time: [494747645, 841329000]
+options: "863fc298cc3bdf198c5a2a718d1440b1"
+build_time: [494789983, 515453000]
 inputs: 
-	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/ExtensionDelegate.swift": [494732897, 0]
+	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/InterfaceController.swift": [494789982, 0]
 	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/NotificationController.swift": [494732897, 0]
-	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/InterfaceController.swift": [494747642, 0]
+	"/Users/Remz/Documents/Connect/Connect WatchKit Extension/ExtensionDelegate.swift": [494788283, 0]
+	"/Users/Remz/Documents/Connect/SessionController.swift": [494788046, 0]

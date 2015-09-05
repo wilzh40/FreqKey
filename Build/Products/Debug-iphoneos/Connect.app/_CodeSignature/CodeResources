@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			04tf+DDYKlBVRJCF1nT8L9I/Sa8=
+			F+0QwH32fVgk3IGGQsryiRFvkrU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cHs+jaIR0/Ph0ZcKlI3AiyyuAYQ=
+			OEfDWxB5CniLIdllPXZYnHlmWcw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+IOoXMNQnjjZNzK5nkoaZYUxV9E=
+			HC+sVsq6kM2bzR+1op0RM37RsNU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,46 +53,50 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pxDAJ5bdrNRDt/eR/VCfqZzeYVY=
+			1LVyGIFnEc+WbNT3BDqaoS3CtSg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/libswiftContacts.dylib</key>
+		<data>
+		mUlKvwpxjnF3pRocTrLLhw8ClOQ=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		qO+GPLptaq9fcCE/mq8e3w9jOG8=
+		Uw3hsigvOIZ7Qu7l7sbnVpwYimg=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		XUBCGDR5QSfBpa2vKeizCtcAins=
+		ryX3kDOpf3se/UWbyGyBNaJlnaI=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		zuHWA09HGdhva/K+QKx4eW8BqKE=
+		8XVQK5edOUjvATYLIqiBZxg197M=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		eiAF0Bbo7/JrdgKBoR6/Tvk1dHU=
+		a5la/PkSjp+Uw0YCZ7AOSulAdZE=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		+GRJiSnkhyMYiS7FOs3SNdsyOXs=
+		3EbUgqh1lLg7RocsWRSUN4W5cBM=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		u4wYEDo1qX+jX3AeRL/cOx+P184=
+		VkhV8y4asa2fMJ56uAHoxLDdllg=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		XnawRMJhwre/7WOw369t3QvysWE=
+		kwyEedyvSutncONBx5macwyfB4I=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		6D8XBeGz6u2Ld08Fbq1ZZtgV83M=
+		Xvx6a1lKWbWAyK+RMXcH+OAL9fA=
 		</data>
 		<key>Frameworks/libswiftWatchConnectivity.dylib</key>
 		<data>
-		OwnEMWUNBxBO/1DkSvLgMzTTlZ8=
+		H66cDuArAw41yCHRRFFD+z3ctHU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -122,43 +126,47 @@
 		</dict>
 		<key>Watch/Connect WatchKit App.app/Connect WatchKit App</key>
 		<data>
-		nGrkB+lMmaCTU08o7KXnmuBXMzM=
+		CYOKmT/aCXeD3mTkf9/Jr/ArkHU=
+		</data>
+		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftContacts.dylib</key>
+		<data>
+		1FV7l8YxpmnAm4/at7ZnguEy0FY=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftCore.dylib</key>
 		<data>
-		MKnXfQl0L/cLXN3faeHce2Mh4VI=
+		fqA1l0PPfN+jo0viGdmj7vEELDo=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		ElAEuKK2+YKbGd36SO9tOASS7yA=
+		IvXCm4N/yvoFmZX7pWD19TPrbeY=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		cEyvvri+Bj+qcOrIy09wjW6k80U=
+		Qa0fqZJTR8/dF3EozlzRbdEpTdg=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		EC4bW4G+CPQgEUzmnui5O5Qdt/s=
+		C/4KUlr3B8S4LrqByqhUbuG0AEA=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		vg0PW6wfULU73aSiJcXxPKeQ1R0=
+		y1sWydTSsxAtOM0HzQE7kD/uAi0=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		USBDOINE0t4ViwsULIAaIw0urwc=
+		fzaMkxvEXRd43hWK2JKivKrU7Qw=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		y0zh+vz56BPbexfygtXUQWh/cQA=
+		Wo6m+nZ4PI46YvI5Lh58eSZ+xzc=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		TbKb4n6cxoVw+7WdfNhzeX7y3tw=
+		zt8opLXtOgWQPsDHTkyh5++rwIU=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftWatchKit.dylib</key>
 		<data>
-		SVVshqSvJjHDrflaS278CwGi9rM=
+		S+Jxko0SqO6i90ZA3TvuKqB34Ww=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Info.plist</key>
 		<data>
@@ -170,7 +178,7 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/Connect WatchKit Extension</key>
 		<data>
-		+8Wb8pJC4yBhOywHWfHR4YSCn34=
+		qioJWrsyz7VAie2oAuszYJy8l0s=
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/Info.plist</key>
 		<data>
@@ -178,11 +186,11 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		PWRAtlqKtzeDFoeIwjyd+JTWeT8=
+		tIblpzwEObvMx2+uYF96uF/tSfo=
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/embedded.mobileprovision</key>
 		<data>
-		/K1YeJIzxivjxxNEuowRJGIrXnY=
+		LKPI7EBAs+baWcvd7uqnI+NANKg=
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/tapNoise.m4a</key>
 		<data>
@@ -190,7 +198,7 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/_CodeSignature/CodeResources</key>
 		<data>
-		RDfag6rNBtPlRkr9dZklOZToQTE=
+		bPTi/3IcAr5i7UsbO/Duq/EJy9o=
 		</data>
 		<key>Watch/Connect WatchKit App.app/_WatchKitStub/WK</key>
 		<data>
@@ -198,11 +206,11 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/embedded.mobileprovision</key>
 		<data>
-		/K1YeJIzxivjxxNEuowRJGIrXnY=
+		DVqOX3sJWL7g27aX+mC1uT62+Rs=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		/K1YeJIzxivjxxNEuowRJGIrXnY=
+		EGJleEox52IgxLkoLj0VGVhqyHU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -211,7 +219,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			04tf+DDYKlBVRJCF1nT8L9I/Sa8=
+			F+0QwH32fVgk3IGGQsryiRFvkrU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -229,7 +237,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cHs+jaIR0/Ph0ZcKlI3AiyyuAYQ=
+			OEfDWxB5CniLIdllPXZYnHlmWcw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -238,7 +246,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+IOoXMNQnjjZNzK5nkoaZYUxV9E=
+			HC+sVsq6kM2bzR+1op0RM37RsNU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -256,46 +264,50 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pxDAJ5bdrNRDt/eR/VCfqZzeYVY=
+			1LVyGIFnEc+WbNT3BDqaoS3CtSg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/libswiftContacts.dylib</key>
+		<data>
+		mUlKvwpxjnF3pRocTrLLhw8ClOQ=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		qO+GPLptaq9fcCE/mq8e3w9jOG8=
+		Uw3hsigvOIZ7Qu7l7sbnVpwYimg=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		XUBCGDR5QSfBpa2vKeizCtcAins=
+		ryX3kDOpf3se/UWbyGyBNaJlnaI=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		zuHWA09HGdhva/K+QKx4eW8BqKE=
+		8XVQK5edOUjvATYLIqiBZxg197M=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		eiAF0Bbo7/JrdgKBoR6/Tvk1dHU=
+		a5la/PkSjp+Uw0YCZ7AOSulAdZE=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		+GRJiSnkhyMYiS7FOs3SNdsyOXs=
+		3EbUgqh1lLg7RocsWRSUN4W5cBM=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		u4wYEDo1qX+jX3AeRL/cOx+P184=
+		VkhV8y4asa2fMJ56uAHoxLDdllg=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		XnawRMJhwre/7WOw369t3QvysWE=
+		kwyEedyvSutncONBx5macwyfB4I=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		6D8XBeGz6u2Ld08Fbq1ZZtgV83M=
+		Xvx6a1lKWbWAyK+RMXcH+OAL9fA=
 		</data>
 		<key>Frameworks/libswiftWatchConnectivity.dylib</key>
 		<data>
-		OwnEMWUNBxBO/1DkSvLgMzTTlZ8=
+		H66cDuArAw41yCHRRFFD+z3ctHU=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Base.lproj/Interface-notification.plist</key>
 		<dict>
@@ -317,43 +329,47 @@
 		</dict>
 		<key>Watch/Connect WatchKit App.app/Connect WatchKit App</key>
 		<data>
-		nGrkB+lMmaCTU08o7KXnmuBXMzM=
+		CYOKmT/aCXeD3mTkf9/Jr/ArkHU=
+		</data>
+		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftContacts.dylib</key>
+		<data>
+		1FV7l8YxpmnAm4/at7ZnguEy0FY=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftCore.dylib</key>
 		<data>
-		MKnXfQl0L/cLXN3faeHce2Mh4VI=
+		fqA1l0PPfN+jo0viGdmj7vEELDo=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		ElAEuKK2+YKbGd36SO9tOASS7yA=
+		IvXCm4N/yvoFmZX7pWD19TPrbeY=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		cEyvvri+Bj+qcOrIy09wjW6k80U=
+		Qa0fqZJTR8/dF3EozlzRbdEpTdg=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		EC4bW4G+CPQgEUzmnui5O5Qdt/s=
+		C/4KUlr3B8S4LrqByqhUbuG0AEA=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		vg0PW6wfULU73aSiJcXxPKeQ1R0=
+		y1sWydTSsxAtOM0HzQE7kD/uAi0=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		USBDOINE0t4ViwsULIAaIw0urwc=
+		fzaMkxvEXRd43hWK2JKivKrU7Qw=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		y0zh+vz56BPbexfygtXUQWh/cQA=
+		Wo6m+nZ4PI46YvI5Lh58eSZ+xzc=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		TbKb4n6cxoVw+7WdfNhzeX7y3tw=
+		zt8opLXtOgWQPsDHTkyh5++rwIU=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Frameworks/libswiftWatchKit.dylib</key>
 		<data>
-		SVVshqSvJjHDrflaS278CwGi9rM=
+		S+Jxko0SqO6i90ZA3TvuKqB34Ww=
 		</data>
 		<key>Watch/Connect WatchKit App.app/Info.plist</key>
 		<data>
@@ -365,7 +381,7 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/Connect WatchKit Extension</key>
 		<data>
-		+8Wb8pJC4yBhOywHWfHR4YSCn34=
+		qioJWrsyz7VAie2oAuszYJy8l0s=
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/Info.plist</key>
 		<data>
@@ -373,11 +389,11 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		PWRAtlqKtzeDFoeIwjyd+JTWeT8=
+		tIblpzwEObvMx2+uYF96uF/tSfo=
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/embedded.mobileprovision</key>
 		<data>
-		/K1YeJIzxivjxxNEuowRJGIrXnY=
+		LKPI7EBAs+baWcvd7uqnI+NANKg=
 		</data>
 		<key>Watch/Connect WatchKit App.app/PlugIns/Connect WatchKit Extension.appex/tapNoise.m4a</key>
 		<data>
@@ -385,7 +401,7 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/_CodeSignature/CodeResources</key>
 		<data>
-		RDfag6rNBtPlRkr9dZklOZToQTE=
+		bPTi/3IcAr5i7UsbO/Duq/EJy9o=
 		</data>
 		<key>Watch/Connect WatchKit App.app/_WatchKitStub/WK</key>
 		<data>
@@ -393,11 +409,11 @@
 		</data>
 		<key>Watch/Connect WatchKit App.app/embedded.mobileprovision</key>
 		<data>
-		/K1YeJIzxivjxxNEuowRJGIrXnY=
+		DVqOX3sJWL7g27aX+mC1uT62+Rs=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		/K1YeJIzxivjxxNEuowRJGIrXnY=
+		EGJleEox52IgxLkoLj0VGVhqyHU=
 		</data>
 	</dict>
 	<key>rules</key>

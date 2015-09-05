@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>2S3D8J8M3T.PennApps.Connect.watchkitapp</string>
+	<string>P3KRQEA879.PennApps.Connect.watchkitapp</string>
 	<key>com.apple.developer.team-identifier</key>
-	<string>2S3D8J8M3T</string>
+	<string>P3KRQEA879</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>2S3D8J8M3T.PennApps.Connect.watchkitapp</string>
+		<string>P3KRQEA879.PennApps.Connect.watchkitapp</string>
 	</array>
 </dict>
 </plist>

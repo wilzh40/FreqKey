@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DA48E931B9ABC2100033A1D /* tapNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2DA48E921B9ABC2100033A1D /* tapNoise.m4a */; settings = {ASSET_TAGS = (); }; };
+		2DA48E951B9ABCC700033A1D /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA48E941B9ABCC700033A1D /* SessionController.swift */; settings = {ASSET_TAGS = (); }; };
+		2DA48E961B9AC19100033A1D /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA48E941B9ABCC700033A1D /* SessionController.swift */; settings = {ASSET_TAGS = (); }; };
+		2DB2FAF81B9B1A770091B2E5 /* tapNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2DA48E921B9ABC2100033A1D /* tapNoise.m4a */; settings = {ASSET_TAGS = (); }; };
 		2DDB053B1B9A816000BC54F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB053A1B9A816000BC54F5 /* AppDelegate.swift */; };
 		2DDB053D1B9A816000BC54F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB053C1B9A816000BC54F5 /* ViewController.swift */; };
 		2DDB05401B9A816000BC54F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB053E1B9A816000BC54F5 /* Main.storyboard */; };
@@ -66,7 +68,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D5115D01B9B492000067C10 /* Connect WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Connect WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		2DA48E921B9ABC2100033A1D /* tapNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tapNoise.m4a; sourceTree = "<group>"; };
+		2DA48E941B9ABCC700033A1D /* SessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionController.swift; path = ../SessionController.swift; sourceTree = "<group>"; };
 		2DDB05371B9A816000BC54F5 /* Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDB053A1B9A816000BC54F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DDB053C1B9A816000BC54F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,8 +155,10 @@
 		2DDB055C1B9A816100BC54F5 /* Connect WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2D5115D01B9B492000067C10 /* Connect WatchKit Extension.entitlements */,
 				2DA48E921B9ABC2100033A1D /* tapNoise.m4a */,
 				2DDB055F1B9A816100BC54F5 /* InterfaceController.swift */,
+				2DA48E941B9ABCC700033A1D /* SessionController.swift */,
 				2DDB05611B9A816100BC54F5 /* ExtensionDelegate.swift */,
 				2DDB05631B9A816100BC54F5 /* NotificationController.swift */,
 				2DDB05651B9A816100BC54F5 /* Assets.xcassets */,
@@ -236,14 +242,20 @@
 				TargetAttributes = {
 					2DDB05361B9A816000BC54F5 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = P3KRQEA879;
 					};
 					2DDB05481B9A816000BC54F5 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 2S3D8J8M3T;
+						DevelopmentTeam = P3KRQEA879;
 					};
 					2DDB05571B9A816100BC54F5 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 2S3D8J8M3T;
+						DevelopmentTeam = P3KRQEA879;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -291,8 +303,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA48E931B9ABC2100033A1D /* tapNoise.m4a in Resources */,
 				2DDB05661B9A816100BC54F5 /* Assets.xcassets in Resources */,
+				2DB2FAF81B9B1A770091B2E5 /* tapNoise.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DDB053D1B9A816000BC54F5 /* ViewController.swift in Sources */,
+				2DA48E961B9AC19100033A1D /* SessionController.swift in Sources */,
 				2DDB053B1B9A816000BC54F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +327,7 @@
 			files = (
 				2DDB05641B9A816100BC54F5 /* NotificationController.swift in Sources */,
 				2DDB05621B9A816100BC54F5 /* ExtensionDelegate.swift in Sources */,
+				2DA48E951B9ABCC700033A1D /* SessionController.swift in Sources */,
 				2DDB05601B9A816100BC54F5 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +459,7 @@
 		2DDB056B1B9A816100BC54F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Connect WatchKit Extension/Connect WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Connect WatchKit Extension/Info.plist";
@@ -462,6 +477,7 @@
 		2DDB056C1B9A816100BC54F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Connect WatchKit Extension/Connect WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Connect WatchKit Extension/Info.plist";
@@ -518,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Connect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PennApps.Connect;
@@ -530,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Connect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PennApps.Connect;

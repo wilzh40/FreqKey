@@ -6,50 +6,99 @@ provides-nominal:
 provides-member:
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", ""]
 provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "session"
 - "applicationDidBecomeActive"
 - "applicationDidFinishLaunching"
-- "applicationWillResignActive"
 depends-top-level:
 - "ExtensionDelegate"
+- "WCSession"
+- "WCSessionFile"
+- !private "StringLiteralType"
 - "NSObject"
 - "WKExtensionDelegate"
+- !private "print"
+- "WCSessionDelegate"
 depends-member:
+- !private ["PSs9AnyObject", "WCSession"]
+- !private ["PSs9AnyObject", "activateSession"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
 - ["PSs9AnyObject", "applicationDidFinishLaunching"]
 - ["PSs9AnyObject", "applicationWillResignActive"]
+- !private ["PSs9AnyObject", "defaultSession"]
+- !private ["PSs9AnyObject", "delegate"]
 - ["PSs9AnyObject", "didReceiveLocalNotification"]
 - ["PSs9AnyObject", "didReceiveRemoteNotification"]
 - ["PSs9AnyObject", "handleActionWithIdentifier"]
 - ["PSs9AnyObject", "handleUserActivity"]
 - ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isSupported"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "session"]
+- ["PSs9AnyObject", "sessionReachabilityDidChange"]
+- ["PSs9AnyObject", "sessionWatchStateDidChange"]
 - ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "WCSession"]
+- !private ["PSs11CVarArgType", "activateSession"]
 - ["PSs11CVarArgType", "applicationDidBecomeActive"]
 - ["PSs11CVarArgType", "applicationDidFinishLaunching"]
 - ["PSs11CVarArgType", "applicationWillResignActive"]
+- !private ["PSs11CVarArgType", "defaultSession"]
+- !private ["PSs11CVarArgType", "delegate"]
 - ["PSs11CVarArgType", "didReceiveLocalNotification"]
 - ["PSs11CVarArgType", "didReceiveRemoteNotification"]
 - ["PSs11CVarArgType", "handleActionWithIdentifier"]
 - ["PSs11CVarArgType", "handleUserActivity"]
 - ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isSupported"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "session"]
+- ["PSs11CVarArgType", "sessionReachabilityDidChange"]
+- ["PSs11CVarArgType", "sessionWatchStateDidChange"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "WCSession"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "activateSession"]
 - ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["PSs23CustomStringConvertible", "applicationDidFinishLaunching"]
 - ["PSs23CustomStringConvertible", "applicationWillResignActive"]
+- !private ["PSs23CustomStringConvertible", "defaultSession"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
 - ["PSs23CustomStringConvertible", "didReceiveLocalNotification"]
 - ["PSs23CustomStringConvertible", "didReceiveRemoteNotification"]
 - ["PSs23CustomStringConvertible", "handleActionWithIdentifier"]
 - ["PSs23CustomStringConvertible", "handleUserActivity"]
 - ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isSupported"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "session"]
+- ["PSs23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["PSs23CustomStringConvertible", "sessionWatchStateDidChange"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "WCSession"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "activateSession"]
 - ["PSs9Equatable", "applicationDidBecomeActive"]
 - ["PSs9Equatable", "applicationDidFinishLaunching"]
 - ["PSs9Equatable", "applicationWillResignActive"]
+- !private ["PSs9Equatable", "defaultSession"]
+- !private ["PSs9Equatable", "delegate"]
 - ["PSs9Equatable", "didReceiveLocalNotification"]
 - ["PSs9Equatable", "didReceiveRemoteNotification"]
 - ["PSs9Equatable", "handleActionWithIdentifier"]
 - ["PSs9Equatable", "handleUserActivity"]
 - ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isSupported"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "session"]
+- ["PSs9Equatable", "sessionReachabilityDidChange"]
+- ["PSs9Equatable", "sessionWatchStateDidChange"]
 - ["PSs9Equatable", ""]
+- ["C26Connect_WatchKit_Extension17ExtensionDelegate", "WCSession"]
+- ["C26Connect_WatchKit_Extension17ExtensionDelegate", "WCSessionFile"]
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", "applicationDidBecomeActive"]
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", "applicationDidFinishLaunching"]
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", "applicationWillResignActive"]
@@ -59,33 +108,84 @@ depends-member:
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", "handleActionWithIdentifier"]
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", "handleUserActivity"]
 - ["C26Connect_WatchKit_Extension17ExtensionDelegate", "init"]
+- !private ["C26Connect_WatchKit_Extension17ExtensionDelegate", "print"]
+- ["C26Connect_WatchKit_Extension17ExtensionDelegate", "session"]
+- ["C26Connect_WatchKit_Extension17ExtensionDelegate", "sessionReachabilityDidChange"]
+- ["C26Connect_WatchKit_Extension17ExtensionDelegate", "sessionWatchStateDidChange"]
+- !private ["PSs8Hashable", "WCSession"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "activateSession"]
 - ["PSs8Hashable", "applicationDidBecomeActive"]
 - ["PSs8Hashable", "applicationDidFinishLaunching"]
 - ["PSs8Hashable", "applicationWillResignActive"]
+- !private ["PSs8Hashable", "defaultSession"]
+- !private ["PSs8Hashable", "delegate"]
 - ["PSs8Hashable", "didReceiveLocalNotification"]
 - ["PSs8Hashable", "didReceiveRemoteNotification"]
 - ["PSs8Hashable", "handleActionWithIdentifier"]
 - ["PSs8Hashable", "handleUserActivity"]
 - ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isSupported"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "session"]
+- ["PSs8Hashable", "sessionReachabilityDidChange"]
+- ["PSs8Hashable", "sessionWatchStateDidChange"]
 - ["PSs8Hashable", ""]
+- ["CSo8NSObject", "WCSession"]
+- ["CSo8NSObject", "WCSessionFile"]
+- !private ["CSo8NSObject", "activateSession"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
 - ["CSo8NSObject", "applicationDidFinishLaunching"]
 - ["CSo8NSObject", "applicationWillResignActive"]
+- !private ["CSo8NSObject", "defaultSession"]
+- !private ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "didReceiveLocalNotification"]
 - ["CSo8NSObject", "didReceiveRemoteNotification"]
 - ["CSo8NSObject", "handleActionWithIdentifier"]
 - ["CSo8NSObject", "handleUserActivity"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSupported"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
 - ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activateSession"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- !private ["PSo16NSObjectProtocol", "defaultSession"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
 - ["PSo16NSObjectProtocol", "didReceiveLocalNotification"]
 - ["PSo16NSObjectProtocol", "didReceiveRemoteNotification"]
 - ["PSo16NSObjectProtocol", "handleActionWithIdentifier"]
 - ["PSo16NSObjectProtocol", "handleUserActivity"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["CSo9WCSession", "activateSession"]
+- !private ["CSo9WCSession", "defaultSession"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- ["PSo17WCSessionDelegate", "applicationDidBecomeActive"]
+- ["PSo17WCSessionDelegate", "applicationDidFinishLaunching"]
+- ["PSo17WCSessionDelegate", "applicationWillResignActive"]
+- ["PSo17WCSessionDelegate", "didReceiveLocalNotification"]
+- ["PSo17WCSessionDelegate", "didReceiveRemoteNotification"]
+- ["PSo17WCSessionDelegate", "handleActionWithIdentifier"]
+- ["PSo17WCSessionDelegate", "handleUserActivity"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- ["PSo17WCSessionDelegate", ""]
+- !private ["PSo19WKExtensionDelegate", "WCSession"]
 - ["PSo19WKExtensionDelegate", "applicationDidBecomeActive"]
 - ["PSo19WKExtensionDelegate", "applicationDidFinishLaunching"]
 - ["PSo19WKExtensionDelegate", "applicationWillResignActive"]
@@ -93,9 +193,19 @@ depends-member:
 - ["PSo19WKExtensionDelegate", "didReceiveRemoteNotification"]
 - ["PSo19WKExtensionDelegate", "handleActionWithIdentifier"]
 - ["PSo19WKExtensionDelegate", "handleUserActivity"]
+- !private ["PSo19WKExtensionDelegate", "print"]
+- ["PSo19WKExtensionDelegate", "session"]
+- ["PSo19WKExtensionDelegate", "sessionReachabilityDidChange"]
+- ["PSo19WKExtensionDelegate", "sessionWatchStateDidChange"]
 - ["PSo19WKExtensionDelegate", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 depends-nominal:
 - "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
 - "PSs11CVarArgType"
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
@@ -103,16 +213,22 @@ depends-nominal:
 - "PSs8Hashable"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "CSo9WCSession"
+- "PSo17WCSessionDelegate"
 - "PSo19WKExtensionDelegate"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Swift.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/WatchKit.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Foundation.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Darwin.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Dispatch.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/ObjectiveC.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreGraphics.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/UIKit.swiftmodule"
-- "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreLocation.swiftmodule"
-interface-hash: "354a2ab102ffcc2e29f70f697b567858"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/WatchKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Contacts.swiftmodule"
+interface-hash: "d74a4053732a31a40100d93a1335792d"

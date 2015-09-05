@@ -1,6 +1,7 @@
-version: "Apple Swift version 2.0 (swiftlang-700.0.52.2 clang-700.0.65)"
+version: "Apple Swift version 2.0 (swiftlang-700.0.57.3 clang-700.0.72)"
 options: "ec6a7bc0ad5eea809d0fad1a775a7799"
-build_time: [494737025, 428965000]
+build_time: [494771830, 942891000]
 inputs: 
-	"/Users/Remz/Documents/Connect/Connect/AppDelegate.swift": [494735708, 0]
+	"/Users/Remz/Documents/Connect/SessionController.swift": [494753139, 0]
+	"/Users/Remz/Documents/Connect/Connect/AppDelegate.swift": [494749580, 0]
 	"/Users/Remz/Documents/Connect/Connect/ViewController.swift": [494732896, 0]
