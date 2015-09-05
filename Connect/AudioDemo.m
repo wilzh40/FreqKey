@@ -12,6 +12,9 @@
 #import "FSKRecognizer.h"
 #import "FSKSerialGenerator.h"
 
+#define kAudioFilePath @"Recording.m4a"
+
+
 @implementation AudioDemo{
     FSKRecognizer *_recognizer;
 }
@@ -25,10 +28,20 @@
     return shared;
 }
 
+
+
+
 - (id)init {
     if (self = [super init]) {
+
+
         AVAudioSession *session = [AVAudioSession sharedInstance];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(interruption:) name:AVAudioSessionInterruptionNotification object:nil];
+        
+        
+        
+        
+        
         if(session.inputAvailable) {
             NSLog(@"Input is available, playandrecord\n");
             [session setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
@@ -36,6 +49,8 @@
             NSLog(@"Input is available, playback\n");
             [session setCategory:AVAudioSessionCategoryPlayback error:nil];
         }
+    
+  
         [session setActive:YES error:nil];
         [session setPreferredIOBufferDuration:0.023220 error:nil];
         

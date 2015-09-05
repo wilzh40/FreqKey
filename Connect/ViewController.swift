@@ -20,10 +20,7 @@ class ViewController: UIViewController {
         demo.generator.writeByte(0xFF)
         demo.generator.writeByte(0xFF)
         demo.generator.writeByte(0xFF)
-        demo.generator.writeByte(0xFF)
-        demo.generator.writeByte(0xFF)
-        demo.generator.writeByte(0xFF)
-        demo.generator.writeByte(0xFF)
+     
 
       /*
         let config = JMFSKModemConfiguration.highSpeedConfiguration()
@@ -46,7 +43,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
 

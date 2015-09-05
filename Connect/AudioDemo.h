@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
+#import "EZAudio.h"
 
 #import "CharReceiver.h"
 
@@ -19,7 +20,8 @@
 }
 @property (strong, nonatomic) AudioSignalAnalyzer* analyzer;
 @property (strong, nonatomic) FSKSerialGenerator* generator;
-
+@property (nonatomic, strong) EZRecorder *recorder;
+@property (nonatomic, strong) EZMicrophone *microphone;
 + (id)shared;
 
 - (void)signalArduino:(BOOL)on;
