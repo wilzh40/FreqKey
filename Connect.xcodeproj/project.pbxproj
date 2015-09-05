@@ -44,10 +44,10 @@
 		777797341B9ABBBD00FD67B1 /* JMAudioInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797191B9ABBBD00FD67B1 /* JMAudioInputStream.m */; settings = {ASSET_TAGS = (); }; };
 		777797351B9ABBBD00FD67B1 /* JMAudioOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777971B1B9ABBBD00FD67B1 /* JMAudioOutputStream.m */; settings = {ASSET_TAGS = (); }; };
 		777797361B9ABBBD00FD67B1 /* JMAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777971E1B9ABBBD00FD67B1 /* JMAudioStream.m */; settings = {ASSET_TAGS = (); }; };
-		777797371B9ABBBD00FD67B1 /* JMFSKModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797201B9ABBBD00FD67B1 /* JMFSKModem.m */; settings = {ASSET_TAGS = (); }; };
+		777797371B9ABBBD00FD67B1 /* JMFSKModem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 777797201B9ABBBD00FD67B1 /* JMFSKModem.mm */; settings = {ASSET_TAGS = (); }; };
 		777797381B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797221B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m */; settings = {ASSET_TAGS = (); }; };
 		777797391B9ABBBD00FD67B1 /* JMFSKRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797251B9ABBBD00FD67B1 /* JMFSKRecognizer.m */; settings = {ASSET_TAGS = (); }; };
-		7777973A1B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m */; settings = {ASSET_TAGS = (); }; };
+		7777973A1B9ABBBD00FD67B1 /* JMFSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.mm */; settings = {ASSET_TAGS = (); }; };
 		7777973B1B9ABBBD00FD67B1 /* JMProtocolDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777972C1B9ABBBD00FD67B1 /* JMProtocolDecoder.m */; settings = {ASSET_TAGS = (); }; };
 		7777973C1B9ABBBD00FD67B1 /* JMProtocolEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777972F1B9ABBBD00FD67B1 /* JMProtocolEncoder.m */; settings = {ASSET_TAGS = (); }; };
 		7777973D1B9ABBBD00FD67B1 /* JMQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797311B9ABBBD00FD67B1 /* JMQueue.m */; settings = {ASSET_TAGS = (); }; };
@@ -160,7 +160,7 @@
 		7777971D1B9ABBBD00FD67B1 /* JMAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioStream.h; sourceTree = "<group>"; };
 		7777971E1B9ABBBD00FD67B1 /* JMAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAudioStream.m; sourceTree = "<group>"; };
 		7777971F1B9ABBBD00FD67B1 /* JMFSKModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModem.h; sourceTree = "<group>"; };
-		777797201B9ABBBD00FD67B1 /* JMFSKModem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKModem.m; sourceTree = "<group>"; };
+		777797201B9ABBBD00FD67B1 /* JMFSKModem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JMFSKModem.mm; sourceTree = "<group>"; };
 		777797211B9ABBBD00FD67B1 /* JMFSKModemConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModemConfiguration.h; sourceTree = "<group>"; };
 		777797221B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKModemConfiguration.m; sourceTree = "<group>"; };
 		777797231B9ABBBD00FD67B1 /* JMFSKModemDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModemDelegate.h; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 		777797251B9ABBBD00FD67B1 /* JMFSKRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKRecognizer.m; sourceTree = "<group>"; };
 		777797261B9ABBBD00FD67B1 /* JMFSKRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKRecognizerDelegate.h; sourceTree = "<group>"; };
 		777797271B9ABBBD00FD67B1 /* JMFSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKSerialGenerator.h; sourceTree = "<group>"; };
-		777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKSerialGenerator.m; sourceTree = "<group>"; };
+		777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JMFSKSerialGenerator.mm; sourceTree = "<group>"; };
 		777797291B9ABBBD00FD67B1 /* JMPatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPatternRecognizer.h; sourceTree = "<group>"; };
 		7777972A1B9ABBBD00FD67B1 /* JMPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPrefix.pch; sourceTree = "<group>"; };
 		7777972B1B9ABBBD00FD67B1 /* JMProtocolDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMProtocolDecoder.h; sourceTree = "<group>"; };
@@ -180,6 +180,7 @@
 		777797311B9ABBBD00FD67B1 /* JMQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQueue.m; sourceTree = "<group>"; };
 		777797321B9ABBBD00FD67B1 /* JMQueueNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQueueNode.h; sourceTree = "<group>"; };
 		777797331B9ABBBD00FD67B1 /* JMQueueNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQueueNode.m; sourceTree = "<group>"; };
+		777797411B9ABDC500FD67B1 /* Connect-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Connect-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +231,7 @@
 				777796DC1B9ABAE200FD67B1 /* Libraries */,
 				2DDB053A1B9A816000BC54F5 /* AppDelegate.swift */,
 				2DDB053C1B9A816000BC54F5 /* ViewController.swift */,
+				777797411B9ABDC500FD67B1 /* Connect-Bridging-Header.h */,
 				2DDB053E1B9A816000BC54F5 /* Main.storyboard */,
 				2DDB05411B9A816000BC54F5 /* Assets.xcassets */,
 				2DDB05431B9A816000BC54F5 /* LaunchScreen.storyboard */,
@@ -339,7 +341,7 @@
 				7777971D1B9ABBBD00FD67B1 /* JMAudioStream.h */,
 				7777971E1B9ABBBD00FD67B1 /* JMAudioStream.m */,
 				7777971F1B9ABBBD00FD67B1 /* JMFSKModem.h */,
-				777797201B9ABBBD00FD67B1 /* JMFSKModem.m */,
+				777797201B9ABBBD00FD67B1 /* JMFSKModem.mm */,
 				777797211B9ABBBD00FD67B1 /* JMFSKModemConfiguration.h */,
 				777797221B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m */,
 				777797231B9ABBBD00FD67B1 /* JMFSKModemDelegate.h */,
@@ -347,7 +349,7 @@
 				777797251B9ABBBD00FD67B1 /* JMFSKRecognizer.m */,
 				777797261B9ABBBD00FD67B1 /* JMFSKRecognizerDelegate.h */,
 				777797271B9ABBBD00FD67B1 /* JMFSKSerialGenerator.h */,
-				777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m */,
+				777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.mm */,
 				777797291B9ABBBD00FD67B1 /* JMPatternRecognizer.h */,
 				7777972A1B9ABBBD00FD67B1 /* JMPrefix.pch */,
 				7777972B1B9ABBBD00FD67B1 /* JMProtocolDecoder.h */,
@@ -500,7 +502,7 @@
 			files = (
 				7777973C1B9ABBBD00FD67B1 /* JMProtocolEncoder.m in Sources */,
 				777797041B9ABB5D00FD67B1 /* EZAudioFFT.m in Sources */,
-				7777973A1B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m in Sources */,
+				7777973A1B9ABBBD00FD67B1 /* JMFSKSerialGenerator.mm in Sources */,
 				7777970E1B9ABB5D00FD67B1 /* EZPlot.m in Sources */,
 				7777973D1B9ABBBD00FD67B1 /* JMQueue.m in Sources */,
 				777797061B9ABB5D00FD67B1 /* EZAudioFloatConverter.m in Sources */,
@@ -525,7 +527,7 @@
 				7777970D1B9ABB5D00FD67B1 /* EZOutput.m in Sources */,
 				777797381B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m in Sources */,
 				777797351B9ABBBD00FD67B1 /* JMAudioOutputStream.m in Sources */,
-				777797371B9ABBBD00FD67B1 /* JMFSKModem.m in Sources */,
+				777797371B9ABBBD00FD67B1 /* JMFSKModem.mm in Sources */,
 				777797021B9ABB5D00FD67B1 /* EZAudioDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,6 +747,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PennApps.Connect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Connect/Connect-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -757,6 +760,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PennApps.Connect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Connect/Connect-Bridging-Header.h";
 			};
 			name = Release;
 		};
