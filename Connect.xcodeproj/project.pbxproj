@@ -21,6 +21,37 @@
 		2DDB05621B9A816100BC54F5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB05611B9A816100BC54F5 /* ExtensionDelegate.swift */; };
 		2DDB05641B9A816100BC54F5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB05631B9A816100BC54F5 /* NotificationController.swift */; };
 		2DDB05661B9A816100BC54F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB05651B9A816100BC54F5 /* Assets.xcassets */; };
+		777797011B9ABB5D00FD67B1 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796DF1B9ABB5D00FD67B1 /* EZAudio.m */; settings = {ASSET_TAGS = (); }; };
+		777797021B9ABB5D00FD67B1 /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E11B9ABB5D00FD67B1 /* EZAudioDevice.m */; settings = {ASSET_TAGS = (); }; };
+		777797031B9ABB5D00FD67B1 /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E31B9ABB5D00FD67B1 /* EZAudioDisplayLink.m */; settings = {ASSET_TAGS = (); }; };
+		777797041B9ABB5D00FD67B1 /* EZAudioFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E51B9ABB5D00FD67B1 /* EZAudioFFT.m */; settings = {ASSET_TAGS = (); }; };
+		777797051B9ABB5D00FD67B1 /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E71B9ABB5D00FD67B1 /* EZAudioFile.m */; settings = {ASSET_TAGS = (); }; };
+		777797061B9ABB5D00FD67B1 /* EZAudioFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E91B9ABB5D00FD67B1 /* EZAudioFloatConverter.m */; settings = {ASSET_TAGS = (); }; };
+		777797071B9ABB5D00FD67B1 /* EZAudioFloatData.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796EB1B9ABB5D00FD67B1 /* EZAudioFloatData.m */; settings = {ASSET_TAGS = (); }; };
+		777797081B9ABB5D00FD67B1 /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796ED1B9ABB5D00FD67B1 /* EZAudioPlayer.m */; settings = {ASSET_TAGS = (); }; };
+		777797091B9ABB5D00FD67B1 /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796EF1B9ABB5D00FD67B1 /* EZAudioPlot.m */; settings = {ASSET_TAGS = (); }; };
+		7777970A1B9ABB5D00FD67B1 /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F11B9ABB5D00FD67B1 /* EZAudioPlotGL.m */; settings = {ASSET_TAGS = (); }; };
+		7777970B1B9ABB5D00FD67B1 /* EZAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F31B9ABB5D00FD67B1 /* EZAudioUtilities.m */; settings = {ASSET_TAGS = (); }; };
+		7777970C1B9ABB5D00FD67B1 /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F51B9ABB5D00FD67B1 /* EZMicrophone.m */; settings = {ASSET_TAGS = (); }; };
+		7777970D1B9ABB5D00FD67B1 /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F71B9ABB5D00FD67B1 /* EZOutput.m */; settings = {ASSET_TAGS = (); }; };
+		7777970E1B9ABB5D00FD67B1 /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F91B9ABB5D00FD67B1 /* EZPlot.m */; settings = {ASSET_TAGS = (); }; };
+		7777970F1B9ABB5D00FD67B1 /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796FB1B9ABB5D00FD67B1 /* EZRecorder.m */; settings = {ASSET_TAGS = (); }; };
+		777797101B9ABB5D00FD67B1 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 777796FC1B9ABB5D00FD67B1 /* TPCircularBuffer.c */; settings = {ASSET_TAGS = (); }; };
+		777797111B9ABB5D00FD67B1 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 777796FF1B9ABB5D00FD67B1 /* CHANGELOG */; settings = {ASSET_TAGS = (); }; };
+		777797121B9ABB5D00FD67B1 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 777797001B9ABB5D00FD67B1 /* VERSION */; settings = {ASSET_TAGS = (); }; };
+		777797141B9ABB8200FD67B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777797131B9ABB8200FD67B1 /* AVFoundation.framework */; };
+		777797161B9ABB8C00FD67B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777797151B9ABB8C00FD67B1 /* AudioToolbox.framework */; };
+		777797341B9ABBBD00FD67B1 /* JMAudioInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797191B9ABBBD00FD67B1 /* JMAudioInputStream.m */; settings = {ASSET_TAGS = (); }; };
+		777797351B9ABBBD00FD67B1 /* JMAudioOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777971B1B9ABBBD00FD67B1 /* JMAudioOutputStream.m */; settings = {ASSET_TAGS = (); }; };
+		777797361B9ABBBD00FD67B1 /* JMAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777971E1B9ABBBD00FD67B1 /* JMAudioStream.m */; settings = {ASSET_TAGS = (); }; };
+		777797371B9ABBBD00FD67B1 /* JMFSKModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797201B9ABBBD00FD67B1 /* JMFSKModem.m */; settings = {ASSET_TAGS = (); }; };
+		777797381B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797221B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m */; settings = {ASSET_TAGS = (); }; };
+		777797391B9ABBBD00FD67B1 /* JMFSKRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797251B9ABBBD00FD67B1 /* JMFSKRecognizer.m */; settings = {ASSET_TAGS = (); }; };
+		7777973A1B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m */; settings = {ASSET_TAGS = (); }; };
+		7777973B1B9ABBBD00FD67B1 /* JMProtocolDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777972C1B9ABBBD00FD67B1 /* JMProtocolDecoder.m */; settings = {ASSET_TAGS = (); }; };
+		7777973C1B9ABBBD00FD67B1 /* JMProtocolEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777972F1B9ABBBD00FD67B1 /* JMProtocolEncoder.m */; settings = {ASSET_TAGS = (); }; };
+		7777973D1B9ABBBD00FD67B1 /* JMQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797311B9ABBBD00FD67B1 /* JMQueue.m */; settings = {ASSET_TAGS = (); }; };
+		7777973E1B9ABBBD00FD67B1 /* JMQueueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797331B9ABBBD00FD67B1 /* JMQueueNode.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +116,70 @@
 		2DDB05631B9A816100BC54F5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		2DDB05651B9A816100BC54F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DDB05671B9A816100BC54F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777796DE1B9ABB5D00FD67B1 /* EZAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudio.h; sourceTree = "<group>"; };
+		777796DF1B9ABB5D00FD67B1 /* EZAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudio.m; sourceTree = "<group>"; };
+		777796E01B9ABB5D00FD67B1 /* EZAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDevice.h; sourceTree = "<group>"; };
+		777796E11B9ABB5D00FD67B1 /* EZAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioDevice.m; sourceTree = "<group>"; };
+		777796E21B9ABB5D00FD67B1 /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDisplayLink.h; sourceTree = "<group>"; };
+		777796E31B9ABB5D00FD67B1 /* EZAudioDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioDisplayLink.m; sourceTree = "<group>"; };
+		777796E41B9ABB5D00FD67B1 /* EZAudioFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFFT.h; sourceTree = "<group>"; };
+		777796E51B9ABB5D00FD67B1 /* EZAudioFFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFFT.m; sourceTree = "<group>"; };
+		777796E61B9ABB5D00FD67B1 /* EZAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFile.h; sourceTree = "<group>"; };
+		777796E71B9ABB5D00FD67B1 /* EZAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFile.m; sourceTree = "<group>"; };
+		777796E81B9ABB5D00FD67B1 /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFloatConverter.h; sourceTree = "<group>"; };
+		777796E91B9ABB5D00FD67B1 /* EZAudioFloatConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFloatConverter.m; sourceTree = "<group>"; };
+		777796EA1B9ABB5D00FD67B1 /* EZAudioFloatData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFloatData.h; sourceTree = "<group>"; };
+		777796EB1B9ABB5D00FD67B1 /* EZAudioFloatData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFloatData.m; sourceTree = "<group>"; };
+		777796EC1B9ABB5D00FD67B1 /* EZAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlayer.h; sourceTree = "<group>"; };
+		777796ED1B9ABB5D00FD67B1 /* EZAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlayer.m; sourceTree = "<group>"; };
+		777796EE1B9ABB5D00FD67B1 /* EZAudioPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlot.h; sourceTree = "<group>"; };
+		777796EF1B9ABB5D00FD67B1 /* EZAudioPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlot.m; sourceTree = "<group>"; };
+		777796F01B9ABB5D00FD67B1 /* EZAudioPlotGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlotGL.h; sourceTree = "<group>"; };
+		777796F11B9ABB5D00FD67B1 /* EZAudioPlotGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlotGL.m; sourceTree = "<group>"; };
+		777796F21B9ABB5D00FD67B1 /* EZAudioUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioUtilities.h; sourceTree = "<group>"; };
+		777796F31B9ABB5D00FD67B1 /* EZAudioUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioUtilities.m; sourceTree = "<group>"; };
+		777796F41B9ABB5D00FD67B1 /* EZMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZMicrophone.h; sourceTree = "<group>"; };
+		777796F51B9ABB5D00FD67B1 /* EZMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZMicrophone.m; sourceTree = "<group>"; };
+		777796F61B9ABB5D00FD67B1 /* EZOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOutput.h; sourceTree = "<group>"; };
+		777796F71B9ABB5D00FD67B1 /* EZOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOutput.m; sourceTree = "<group>"; };
+		777796F81B9ABB5D00FD67B1 /* EZPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPlot.h; sourceTree = "<group>"; };
+		777796F91B9ABB5D00FD67B1 /* EZPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPlot.m; sourceTree = "<group>"; };
+		777796FA1B9ABB5D00FD67B1 /* EZRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRecorder.h; sourceTree = "<group>"; };
+		777796FB1B9ABB5D00FD67B1 /* EZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRecorder.m; sourceTree = "<group>"; };
+		777796FC1B9ABB5D00FD67B1 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		777796FD1B9ABB5D00FD67B1 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		777796FF1B9ABB5D00FD67B1 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		777797001B9ABB5D00FD67B1 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		777797131B9ABB8200FD67B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		777797151B9ABB8C00FD67B1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		777797181B9ABBBD00FD67B1 /* JMAudioInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioInputStream.h; sourceTree = "<group>"; };
+		777797191B9ABBBD00FD67B1 /* JMAudioInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAudioInputStream.m; sourceTree = "<group>"; };
+		7777971A1B9ABBBD00FD67B1 /* JMAudioOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioOutputStream.h; sourceTree = "<group>"; };
+		7777971B1B9ABBBD00FD67B1 /* JMAudioOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAudioOutputStream.m; sourceTree = "<group>"; };
+		7777971C1B9ABBBD00FD67B1 /* JMAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioSource.h; sourceTree = "<group>"; };
+		7777971D1B9ABBBD00FD67B1 /* JMAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioStream.h; sourceTree = "<group>"; };
+		7777971E1B9ABBBD00FD67B1 /* JMAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAudioStream.m; sourceTree = "<group>"; };
+		7777971F1B9ABBBD00FD67B1 /* JMFSKModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModem.h; sourceTree = "<group>"; };
+		777797201B9ABBBD00FD67B1 /* JMFSKModem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKModem.m; sourceTree = "<group>"; };
+		777797211B9ABBBD00FD67B1 /* JMFSKModemConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModemConfiguration.h; sourceTree = "<group>"; };
+		777797221B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKModemConfiguration.m; sourceTree = "<group>"; };
+		777797231B9ABBBD00FD67B1 /* JMFSKModemDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModemDelegate.h; sourceTree = "<group>"; };
+		777797241B9ABBBD00FD67B1 /* JMFSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKRecognizer.h; sourceTree = "<group>"; };
+		777797251B9ABBBD00FD67B1 /* JMFSKRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKRecognizer.m; sourceTree = "<group>"; };
+		777797261B9ABBBD00FD67B1 /* JMFSKRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKRecognizerDelegate.h; sourceTree = "<group>"; };
+		777797271B9ABBBD00FD67B1 /* JMFSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKSerialGenerator.h; sourceTree = "<group>"; };
+		777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKSerialGenerator.m; sourceTree = "<group>"; };
+		777797291B9ABBBD00FD67B1 /* JMPatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPatternRecognizer.h; sourceTree = "<group>"; };
+		7777972A1B9ABBBD00FD67B1 /* JMPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPrefix.pch; sourceTree = "<group>"; };
+		7777972B1B9ABBBD00FD67B1 /* JMProtocolDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMProtocolDecoder.h; sourceTree = "<group>"; };
+		7777972C1B9ABBBD00FD67B1 /* JMProtocolDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMProtocolDecoder.m; sourceTree = "<group>"; };
+		7777972D1B9ABBBD00FD67B1 /* JMProtocolDecoderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMProtocolDecoderDelegate.h; sourceTree = "<group>"; };
+		7777972E1B9ABBBD00FD67B1 /* JMProtocolEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMProtocolEncoder.h; sourceTree = "<group>"; };
+		7777972F1B9ABBBD00FD67B1 /* JMProtocolEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMProtocolEncoder.m; sourceTree = "<group>"; };
+		777797301B9ABBBD00FD67B1 /* JMQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQueue.h; sourceTree = "<group>"; };
+		777797311B9ABBBD00FD67B1 /* JMQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQueue.m; sourceTree = "<group>"; };
+		777797321B9ABBBD00FD67B1 /* JMQueueNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQueueNode.h; sourceTree = "<group>"; };
+		777797331B9ABBBD00FD67B1 /* JMQueueNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQueueNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +187,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777797161B9ABB8C00FD67B1 /* AudioToolbox.framework in Frameworks */,
+				777797141B9ABB8200FD67B1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +205,8 @@
 		2DDB052E1B9A816000BC54F5 = {
 			isa = PBXGroup;
 			children = (
+				777797151B9ABB8C00FD67B1 /* AudioToolbox.framework */,
+				777797131B9ABB8200FD67B1 /* AVFoundation.framework */,
 				2DDB05391B9A816000BC54F5 /* Connect */,
 				2DDB054D1B9A816000BC54F5 /* Connect WatchKit App */,
 				2DDB055C1B9A816100BC54F5 /* Connect WatchKit Extension */,
@@ -128,6 +227,7 @@
 		2DDB05391B9A816000BC54F5 /* Connect */ = {
 			isa = PBXGroup;
 			children = (
+				777796DC1B9ABAE200FD67B1 /* Libraries */,
 				2DDB053A1B9A816000BC54F5 /* AppDelegate.swift */,
 				2DDB053C1B9A816000BC54F5 /* ViewController.swift */,
 				2DDB053E1B9A816000BC54F5 /* Main.storyboard */,
@@ -168,6 +268,99 @@
 				2DDB055E1B9A816100BC54F5 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		777796DC1B9ABAE200FD67B1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				777797171B9ABBBD00FD67B1 /* FSKModem */,
+				777796DD1B9ABB5D00FD67B1 /* EZAudio */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		777796DD1B9ABB5D00FD67B1 /* EZAudio */ = {
+			isa = PBXGroup;
+			children = (
+				777796DE1B9ABB5D00FD67B1 /* EZAudio.h */,
+				777796DF1B9ABB5D00FD67B1 /* EZAudio.m */,
+				777796E01B9ABB5D00FD67B1 /* EZAudioDevice.h */,
+				777796E11B9ABB5D00FD67B1 /* EZAudioDevice.m */,
+				777796E21B9ABB5D00FD67B1 /* EZAudioDisplayLink.h */,
+				777796E31B9ABB5D00FD67B1 /* EZAudioDisplayLink.m */,
+				777796E41B9ABB5D00FD67B1 /* EZAudioFFT.h */,
+				777796E51B9ABB5D00FD67B1 /* EZAudioFFT.m */,
+				777796E61B9ABB5D00FD67B1 /* EZAudioFile.h */,
+				777796E71B9ABB5D00FD67B1 /* EZAudioFile.m */,
+				777796E81B9ABB5D00FD67B1 /* EZAudioFloatConverter.h */,
+				777796E91B9ABB5D00FD67B1 /* EZAudioFloatConverter.m */,
+				777796EA1B9ABB5D00FD67B1 /* EZAudioFloatData.h */,
+				777796EB1B9ABB5D00FD67B1 /* EZAudioFloatData.m */,
+				777796EC1B9ABB5D00FD67B1 /* EZAudioPlayer.h */,
+				777796ED1B9ABB5D00FD67B1 /* EZAudioPlayer.m */,
+				777796EE1B9ABB5D00FD67B1 /* EZAudioPlot.h */,
+				777796EF1B9ABB5D00FD67B1 /* EZAudioPlot.m */,
+				777796F01B9ABB5D00FD67B1 /* EZAudioPlotGL.h */,
+				777796F11B9ABB5D00FD67B1 /* EZAudioPlotGL.m */,
+				777796F21B9ABB5D00FD67B1 /* EZAudioUtilities.h */,
+				777796F31B9ABB5D00FD67B1 /* EZAudioUtilities.m */,
+				777796F41B9ABB5D00FD67B1 /* EZMicrophone.h */,
+				777796F51B9ABB5D00FD67B1 /* EZMicrophone.m */,
+				777796F61B9ABB5D00FD67B1 /* EZOutput.h */,
+				777796F71B9ABB5D00FD67B1 /* EZOutput.m */,
+				777796F81B9ABB5D00FD67B1 /* EZPlot.h */,
+				777796F91B9ABB5D00FD67B1 /* EZPlot.m */,
+				777796FA1B9ABB5D00FD67B1 /* EZRecorder.h */,
+				777796FB1B9ABB5D00FD67B1 /* EZRecorder.m */,
+				777796FC1B9ABB5D00FD67B1 /* TPCircularBuffer.c */,
+				777796FD1B9ABB5D00FD67B1 /* TPCircularBuffer.h */,
+				777796FE1B9ABB5D00FD67B1 /* VERSION */,
+			);
+			path = EZAudio;
+			sourceTree = "<group>";
+		};
+		777796FE1B9ABB5D00FD67B1 /* VERSION */ = {
+			isa = PBXGroup;
+			children = (
+				777796FF1B9ABB5D00FD67B1 /* CHANGELOG */,
+				777797001B9ABB5D00FD67B1 /* VERSION */,
+			);
+			path = VERSION;
+			sourceTree = "<group>";
+		};
+		777797171B9ABBBD00FD67B1 /* FSKModem */ = {
+			isa = PBXGroup;
+			children = (
+				777797181B9ABBBD00FD67B1 /* JMAudioInputStream.h */,
+				777797191B9ABBBD00FD67B1 /* JMAudioInputStream.m */,
+				7777971A1B9ABBBD00FD67B1 /* JMAudioOutputStream.h */,
+				7777971B1B9ABBBD00FD67B1 /* JMAudioOutputStream.m */,
+				7777971C1B9ABBBD00FD67B1 /* JMAudioSource.h */,
+				7777971D1B9ABBBD00FD67B1 /* JMAudioStream.h */,
+				7777971E1B9ABBBD00FD67B1 /* JMAudioStream.m */,
+				7777971F1B9ABBBD00FD67B1 /* JMFSKModem.h */,
+				777797201B9ABBBD00FD67B1 /* JMFSKModem.m */,
+				777797211B9ABBBD00FD67B1 /* JMFSKModemConfiguration.h */,
+				777797221B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m */,
+				777797231B9ABBBD00FD67B1 /* JMFSKModemDelegate.h */,
+				777797241B9ABBBD00FD67B1 /* JMFSKRecognizer.h */,
+				777797251B9ABBBD00FD67B1 /* JMFSKRecognizer.m */,
+				777797261B9ABBBD00FD67B1 /* JMFSKRecognizerDelegate.h */,
+				777797271B9ABBBD00FD67B1 /* JMFSKSerialGenerator.h */,
+				777797281B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m */,
+				777797291B9ABBBD00FD67B1 /* JMPatternRecognizer.h */,
+				7777972A1B9ABBBD00FD67B1 /* JMPrefix.pch */,
+				7777972B1B9ABBBD00FD67B1 /* JMProtocolDecoder.h */,
+				7777972C1B9ABBBD00FD67B1 /* JMProtocolDecoder.m */,
+				7777972D1B9ABBBD00FD67B1 /* JMProtocolDecoderDelegate.h */,
+				7777972E1B9ABBBD00FD67B1 /* JMProtocolEncoder.h */,
+				7777972F1B9ABBBD00FD67B1 /* JMProtocolEncoder.m */,
+				777797301B9ABBBD00FD67B1 /* JMQueue.h */,
+				777797311B9ABBBD00FD67B1 /* JMQueue.m */,
+				777797321B9ABBBD00FD67B1 /* JMQueueNode.h */,
+				777797331B9ABBBD00FD67B1 /* JMQueueNode.m */,
+			);
+			path = FSKModem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +466,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DDB05451B9A816000BC54F5 /* LaunchScreen.storyboard in Resources */,
+				777797111B9ABB5D00FD67B1 /* CHANGELOG in Resources */,
 				2DDB05421B9A816000BC54F5 /* Assets.xcassets in Resources */,
 				2DDB05401B9A816000BC54F5 /* Main.storyboard in Resources */,
+				777797121B9ABB5D00FD67B1 /* VERSION in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +498,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7777973C1B9ABBBD00FD67B1 /* JMProtocolEncoder.m in Sources */,
+				777797041B9ABB5D00FD67B1 /* EZAudioFFT.m in Sources */,
+				7777973A1B9ABBBD00FD67B1 /* JMFSKSerialGenerator.m in Sources */,
+				7777970E1B9ABB5D00FD67B1 /* EZPlot.m in Sources */,
+				7777973D1B9ABBBD00FD67B1 /* JMQueue.m in Sources */,
+				777797061B9ABB5D00FD67B1 /* EZAudioFloatConverter.m in Sources */,
+				777797071B9ABB5D00FD67B1 /* EZAudioFloatData.m in Sources */,
+				777797011B9ABB5D00FD67B1 /* EZAudio.m in Sources */,
+				777797361B9ABBBD00FD67B1 /* JMAudioStream.m in Sources */,
+				7777973B1B9ABBBD00FD67B1 /* JMProtocolDecoder.m in Sources */,
+				7777970C1B9ABB5D00FD67B1 /* EZMicrophone.m in Sources */,
+				777797391B9ABBBD00FD67B1 /* JMFSKRecognizer.m in Sources */,
+				777797101B9ABB5D00FD67B1 /* TPCircularBuffer.c in Sources */,
+				777797051B9ABB5D00FD67B1 /* EZAudioFile.m in Sources */,
+				7777970B1B9ABB5D00FD67B1 /* EZAudioUtilities.m in Sources */,
+				7777970A1B9ABB5D00FD67B1 /* EZAudioPlotGL.m in Sources */,
+				777797091B9ABB5D00FD67B1 /* EZAudioPlot.m in Sources */,
 				2DDB053D1B9A816000BC54F5 /* ViewController.swift in Sources */,
+				7777970F1B9ABB5D00FD67B1 /* EZRecorder.m in Sources */,
+				777797081B9ABB5D00FD67B1 /* EZAudioPlayer.m in Sources */,
 				2DDB053B1B9A816000BC54F5 /* AppDelegate.swift in Sources */,
+				777797031B9ABB5D00FD67B1 /* EZAudioDisplayLink.m in Sources */,
+				777797341B9ABBBD00FD67B1 /* JMAudioInputStream.m in Sources */,
+				7777973E1B9ABBBD00FD67B1 /* JMQueueNode.m in Sources */,
+				7777970D1B9ABB5D00FD67B1 /* EZOutput.m in Sources */,
+				777797381B9ABBBD00FD67B1 /* JMFSKModemConfiguration.m in Sources */,
+				777797351B9ABBBD00FD67B1 /* JMAudioOutputStream.m in Sources */,
+				777797371B9ABBBD00FD67B1 /* JMFSKModem.m in Sources */,
+				777797021B9ABB5D00FD67B1 /* EZAudioDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
