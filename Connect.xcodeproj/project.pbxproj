@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D93252D1B9A933A0000AA06 /* tapNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2D93252C1B9A933A0000AA06 /* tapNoise.m4a */; };
+		2DA48E931B9ABC2100033A1D /* tapNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2DA48E921B9ABC2100033A1D /* tapNoise.m4a */; settings = {ASSET_TAGS = (); }; };
 		2DDB053B1B9A816000BC54F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB053A1B9A816000BC54F5 /* AppDelegate.swift */; };
 		2DDB053D1B9A816000BC54F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB053C1B9A816000BC54F5 /* ViewController.swift */; };
 		2DDB05401B9A816000BC54F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB053E1B9A816000BC54F5 /* Main.storyboard */; };
@@ -97,7 +97,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D93252C1B9A933A0000AA06 /* tapNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = tapNoise.m4a; path = "../../../Downloads/watchOS-2-Sampler-master/Resources/sounds/tapNoise.m4a"; sourceTree = "<group>"; };
+		2DA48E921B9ABC2100033A1D /* tapNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tapNoise.m4a; sourceTree = "<group>"; };
 		2DDB05371B9A816000BC54F5 /* Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDB053A1B9A816000BC54F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DDB053C1B9A816000BC54F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -251,7 +251,7 @@
 		2DDB055C1B9A816100BC54F5 /* Connect WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2D93252C1B9A933A0000AA06 /* tapNoise.m4a */,
+				2DA48E921B9ABC2100033A1D /* tapNoise.m4a */,
 				2DDB055F1B9A816100BC54F5 /* InterfaceController.swift */,
 				2DDB05611B9A816100BC54F5 /* ExtensionDelegate.swift */,
 				2DDB05631B9A816100BC54F5 /* NotificationController.swift */,
@@ -486,7 +486,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D93252D1B9A933A0000AA06 /* tapNoise.m4a in Resources */,
+				2DA48E931B9ABC2100033A1D /* tapNoise.m4a in Resources */,
 				2DDB05661B9A816100BC54F5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
