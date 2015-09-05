@@ -11,7 +11,7 @@
 #import "AudioQueueObject.h"
 #import "AudioSignalGenerator.h"
 
-#define kAudioFilePath @"Recording.m4a"
+#define kAudioFilePath @"recording.m4a"
 
 
 
@@ -28,11 +28,20 @@ static void playbackCallback (
 	AudioSignalGenerator *player = (__bridge AudioSignalGenerator *) inUserData;
 	if ([player stopped]) return;
     if ([player allocatedBuffers]) {
-    [player.recorder appendDataFromBufferList:bufferReference->mAudioData
-                               withBufferSize:bufferReference->mAudioDataBytesCapacity];
-    }f  23
-	[player fillBuffer:bufferReference->mAudioData];
+         AudioBufferList *tempBufferList = [EZAudioUtilities audioBufferListWithNumberOfFrames:0x400
+                                           numberOfChannels:1
+                                                interleaved:false];
+        tempBufferList->mBuffers[0].mData = bufferReference->mAudioData;
+        
+        
+        [player.recorder appendDataFromBufferList:tempBufferList
+                                   withBufferSize:0x400];
+        free(tempBufferList);
 
+    }
+  
+	[player fillBuffer:bufferReference->mAudioData];
+ 
 	bufferReference->mAudioDataByteSize = player.bufferByteSize;
     AudioQueueEnqueueBuffer (
 								 inAudioQueue,
@@ -40,6 +49,7 @@ static void playbackCallback (
 								 player.bufferPacketCount,
 								 player.packetDescriptions
 								 );
+    
    
 
 
@@ -61,6 +71,7 @@ static void playbackCallback (
     
     
 }
+
 - (NSURL *)testFilePathURL
 {
     NSLog(@" Recording to %@", [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@",

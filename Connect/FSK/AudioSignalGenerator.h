@@ -24,7 +24,7 @@
 	BOOL							stopped;
 	BOOL							audioPlayerShouldStopImmediately;
 }
-
+@property (readwrite) AudioQueueBufferRef				*buffers;
 @property (readwrite) AudioStreamPacketDescription	*packetDescriptions;
 @property (readwrite) BOOL							stopped, audioPlayerShouldStopImmediately, allocatedBuffers;
 @property (readwrite) UInt32						bufferByteSize;

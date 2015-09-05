@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DA48E931B9ABC2100033A1D /* tapNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2DA48E921B9ABC2100033A1D /* tapNoise.m4a */; settings = {ASSET_TAGS = (); }; };
+		2DA48E931B9ABC2100033A1D /* tapNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2DA48E921B9ABC2100033A1D /* tapNoise.m4a */; };
 		2DDB053B1B9A816000BC54F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB053A1B9A816000BC54F5 /* AppDelegate.swift */; };
 		2DDB053D1B9A816000BC54F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB053C1B9A816000BC54F5 /* ViewController.swift */; };
 		2DDB05401B9A816000BC54F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB053E1B9A816000BC54F5 /* Main.storyboard */; };
@@ -21,33 +21,33 @@
 		2DDB05621B9A816100BC54F5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB05611B9A816100BC54F5 /* ExtensionDelegate.swift */; };
 		2DDB05641B9A816100BC54F5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDB05631B9A816100BC54F5 /* NotificationController.swift */; };
 		2DDB05661B9A816100BC54F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB05651B9A816100BC54F5 /* Assets.xcassets */; };
-		777797011B9ABB5D00FD67B1 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796DF1B9ABB5D00FD67B1 /* EZAudio.m */; settings = {ASSET_TAGS = (); }; };
-		777797021B9ABB5D00FD67B1 /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E11B9ABB5D00FD67B1 /* EZAudioDevice.m */; settings = {ASSET_TAGS = (); }; };
-		777797031B9ABB5D00FD67B1 /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E31B9ABB5D00FD67B1 /* EZAudioDisplayLink.m */; settings = {ASSET_TAGS = (); }; };
-		777797041B9ABB5D00FD67B1 /* EZAudioFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E51B9ABB5D00FD67B1 /* EZAudioFFT.m */; settings = {ASSET_TAGS = (); }; };
-		777797051B9ABB5D00FD67B1 /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E71B9ABB5D00FD67B1 /* EZAudioFile.m */; settings = {ASSET_TAGS = (); }; };
-		777797061B9ABB5D00FD67B1 /* EZAudioFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E91B9ABB5D00FD67B1 /* EZAudioFloatConverter.m */; settings = {ASSET_TAGS = (); }; };
-		777797071B9ABB5D00FD67B1 /* EZAudioFloatData.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796EB1B9ABB5D00FD67B1 /* EZAudioFloatData.m */; settings = {ASSET_TAGS = (); }; };
-		777797081B9ABB5D00FD67B1 /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796ED1B9ABB5D00FD67B1 /* EZAudioPlayer.m */; settings = {ASSET_TAGS = (); }; };
-		777797091B9ABB5D00FD67B1 /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796EF1B9ABB5D00FD67B1 /* EZAudioPlot.m */; settings = {ASSET_TAGS = (); }; };
-		7777970A1B9ABB5D00FD67B1 /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F11B9ABB5D00FD67B1 /* EZAudioPlotGL.m */; settings = {ASSET_TAGS = (); }; };
-		7777970B1B9ABB5D00FD67B1 /* EZAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F31B9ABB5D00FD67B1 /* EZAudioUtilities.m */; settings = {ASSET_TAGS = (); }; };
-		7777970C1B9ABB5D00FD67B1 /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F51B9ABB5D00FD67B1 /* EZMicrophone.m */; settings = {ASSET_TAGS = (); }; };
-		7777970D1B9ABB5D00FD67B1 /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F71B9ABB5D00FD67B1 /* EZOutput.m */; settings = {ASSET_TAGS = (); }; };
-		7777970E1B9ABB5D00FD67B1 /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F91B9ABB5D00FD67B1 /* EZPlot.m */; settings = {ASSET_TAGS = (); }; };
-		7777970F1B9ABB5D00FD67B1 /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796FB1B9ABB5D00FD67B1 /* EZRecorder.m */; settings = {ASSET_TAGS = (); }; };
-		777797101B9ABB5D00FD67B1 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 777796FC1B9ABB5D00FD67B1 /* TPCircularBuffer.c */; settings = {ASSET_TAGS = (); }; };
-		777797111B9ABB5D00FD67B1 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 777796FF1B9ABB5D00FD67B1 /* CHANGELOG */; settings = {ASSET_TAGS = (); }; };
-		777797121B9ABB5D00FD67B1 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 777797001B9ABB5D00FD67B1 /* VERSION */; settings = {ASSET_TAGS = (); }; };
+		777797011B9ABB5D00FD67B1 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796DF1B9ABB5D00FD67B1 /* EZAudio.m */; };
+		777797021B9ABB5D00FD67B1 /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E11B9ABB5D00FD67B1 /* EZAudioDevice.m */; };
+		777797031B9ABB5D00FD67B1 /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E31B9ABB5D00FD67B1 /* EZAudioDisplayLink.m */; };
+		777797041B9ABB5D00FD67B1 /* EZAudioFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E51B9ABB5D00FD67B1 /* EZAudioFFT.m */; };
+		777797051B9ABB5D00FD67B1 /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E71B9ABB5D00FD67B1 /* EZAudioFile.m */; };
+		777797061B9ABB5D00FD67B1 /* EZAudioFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796E91B9ABB5D00FD67B1 /* EZAudioFloatConverter.m */; };
+		777797071B9ABB5D00FD67B1 /* EZAudioFloatData.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796EB1B9ABB5D00FD67B1 /* EZAudioFloatData.m */; };
+		777797081B9ABB5D00FD67B1 /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796ED1B9ABB5D00FD67B1 /* EZAudioPlayer.m */; };
+		777797091B9ABB5D00FD67B1 /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796EF1B9ABB5D00FD67B1 /* EZAudioPlot.m */; };
+		7777970A1B9ABB5D00FD67B1 /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F11B9ABB5D00FD67B1 /* EZAudioPlotGL.m */; };
+		7777970B1B9ABB5D00FD67B1 /* EZAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F31B9ABB5D00FD67B1 /* EZAudioUtilities.m */; };
+		7777970C1B9ABB5D00FD67B1 /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F51B9ABB5D00FD67B1 /* EZMicrophone.m */; };
+		7777970D1B9ABB5D00FD67B1 /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F71B9ABB5D00FD67B1 /* EZOutput.m */; };
+		7777970E1B9ABB5D00FD67B1 /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796F91B9ABB5D00FD67B1 /* EZPlot.m */; };
+		7777970F1B9ABB5D00FD67B1 /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 777796FB1B9ABB5D00FD67B1 /* EZRecorder.m */; };
+		777797101B9ABB5D00FD67B1 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 777796FC1B9ABB5D00FD67B1 /* TPCircularBuffer.c */; };
+		777797111B9ABB5D00FD67B1 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 777796FF1B9ABB5D00FD67B1 /* CHANGELOG */; };
+		777797121B9ABB5D00FD67B1 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 777797001B9ABB5D00FD67B1 /* VERSION */; };
 		777797141B9ABB8200FD67B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777797131B9ABB8200FD67B1 /* AVFoundation.framework */; };
 		777797161B9ABB8C00FD67B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777797151B9ABB8C00FD67B1 /* AudioToolbox.framework */; };
-		777797571B9AC32A00FD67B1 /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797441B9AC32A00FD67B1 /* AudioQueueObject.m */; settings = {ASSET_TAGS = (); }; };
-		777797581B9AC32A00FD67B1 /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797461B9AC32A00FD67B1 /* AudioSignalAnalyzer.m */; settings = {ASSET_TAGS = (); }; };
-		777797591B9AC32A00FD67B1 /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797481B9AC32A00FD67B1 /* AudioSignalGenerator.m */; settings = {ASSET_TAGS = (); }; };
-		7777975A1B9AC32A00FD67B1 /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7777974D1B9AC32A00FD67B1 /* FSKRecognizer.mm */; settings = {ASSET_TAGS = (); }; };
-		7777975B1B9AC32A00FD67B1 /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7777974F1B9AC32A00FD67B1 /* FSKSerialGenerator.mm */; settings = {ASSET_TAGS = (); }; };
-		7777975C1B9AC32A00FD67B1 /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797521B9AC32A00FD67B1 /* MultiDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		777797631B9AC52300FD67B1 /* AudioDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797621B9AC52200FD67B1 /* AudioDemo.m */; settings = {ASSET_TAGS = (); }; };
+		777797571B9AC32A00FD67B1 /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797441B9AC32A00FD67B1 /* AudioQueueObject.m */; };
+		777797581B9AC32A00FD67B1 /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797461B9AC32A00FD67B1 /* AudioSignalAnalyzer.m */; };
+		777797591B9AC32A00FD67B1 /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797481B9AC32A00FD67B1 /* AudioSignalGenerator.m */; };
+		7777975A1B9AC32A00FD67B1 /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7777974D1B9AC32A00FD67B1 /* FSKRecognizer.mm */; };
+		7777975B1B9AC32A00FD67B1 /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7777974F1B9AC32A00FD67B1 /* FSKSerialGenerator.mm */; };
+		7777975C1B9AC32A00FD67B1 /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797521B9AC32A00FD67B1 /* MultiDelegate.m */; };
+		777797631B9AC52300FD67B1 /* AudioDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 777797621B9AC52200FD67B1 /* AudioDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
