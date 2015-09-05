@@ -6,8 +6,14 @@
 //
 //
 
-#import "JMFSKModem.h"
+
 #import "EZAudio.h"
+#import "CharReceiver.h"
+#import "AudioSignalAnalyzer.h"
+#import "FSKRecognizer.h"
+#import "FSKSerialGenerator.h"
+#import "AudioDemo.h"
+
 /*
 #ifndef Header_h
 #define Header_h
