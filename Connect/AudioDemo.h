@@ -10,6 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
 #import "EZAudio.h"
+#import "FSKRecognizer.h"
 
 #import "CharReceiver.h"
 
@@ -19,9 +20,14 @@
     char local_input;
 }
 @property (strong, nonatomic) AudioSignalAnalyzer* analyzer;
+@property (strong, nonatomic) FSKRecognizer* recognizer;
+
 @property (strong, nonatomic) FSKSerialGenerator* generator;
 @property (nonatomic, strong) EZRecorder *recorder;
 @property (nonatomic, strong) EZMicrophone *microphone;
+
+
+@property (readwrite) NSMutableString *decodedText;
 + (id)shared;
 
 - (void)signalArduino:(BOOL)on;

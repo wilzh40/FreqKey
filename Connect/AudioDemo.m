@@ -33,7 +33,7 @@
 
 - (id)init {
     if (self = [super init]) {
-
+        self.decodedText = @"";
 
         AVAudioSession *session = [AVAudioSession sharedInstance];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(interruption:) name:AVAudioSessionInterruptionNotification object:nil];
@@ -110,8 +110,12 @@
 
 - (void)receivedChar:(char)input {
     self->local_input = input;
+    NSLog(@"Received: %c", self->local_input);
+    //[self.decodedText appendString:[NSString stringWithFormat:@"%c",self->local_input]];
+
     [self returnChar];
-    NSLog(@"Received: %d", input);
+    //NSString *str = [[NSString alloc]initWithBytes:input length:1 encoding:NSUTF8StringEncoding];
+    
 }
 
 #pragma mark return received char
